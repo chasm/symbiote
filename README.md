@@ -7,7 +7,7 @@ Built with Meteor and MongoDB!
 
 Team members
 ============
-Sophia
+Sophia!
 Karen
 Emily!
 Jin Yang
