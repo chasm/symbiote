@@ -10,9 +10,9 @@ Team members
 ============
 Sophia
 Karen
-Sophia!
->>>>>>> 08665db7368d12d6efe3ac97e416d58a62d7073a
-Emily!
+Sophia
+Emily
 Jin
 Deepak
->>>>>>> 2aab27ee1f61041524351feb39498785cfb0066c
+
+
