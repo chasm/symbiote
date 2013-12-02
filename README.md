@@ -10,6 +10,6 @@ Team members
 ============
 Sophia
 Karen
-Emily
+Emily!
 Jin
 Deepak
