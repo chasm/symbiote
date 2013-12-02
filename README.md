@@ -5,11 +5,14 @@ Collaborative real-time applications. Part of the DaVinci course management appl
 
 Built with Meteor and MongoDB!
 
+<<<<<<< HEAD
+=======
 
 Team members
 ============
 Sophia
-Karen
+Karen.
 Emily!
 Jin
 Deepak
+>>>>>>> 2aab27ee1f61041524351feb39498785cfb0066c
