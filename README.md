@@ -10,8 +10,13 @@ Built with Meteor and MongoDB!
 
 Team members
 ============
+<<<<<<< HEAD
 Sophia
 Karen.
+=======
+Sophia!
+Karen
+>>>>>>> 08665db7368d12d6efe3ac97e416d58a62d7073a
 Emily!
 Jin
 Deepak
