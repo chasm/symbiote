@@ -3,11 +3,11 @@ Router.configure
   loadingTemplate: 'loading'
 
 Router.map ->
-  @.route 'homePage', path: '/'
+  @.route 'dashboard', path: '/'
 
-  @.route 'chattrPage', path: '/chattr'
-  @.route 'codrPage', path: '/codr'
-  @.route 'modelrPage', path: '/modelr'
-  @.route 'stylrPage', path: '/stylr'
+  @.route 'chattrIndex', path: '/chattr'
+  @.route 'codrIndex', path: '/codr'
+  @.route 'modelrIndex', path: '/modelr'
+  @.route 'stylrIndex', path: '/stylr'
     
 
