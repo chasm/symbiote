@@ -1,0 +1,33 @@
+<template name="header"> 
+	<header class="navbar">
+		<div class="navbar-inner">
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-coll
+apse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span> </a>
+			<a class="brand" href="{{pathFor 'dashboard'}}">Symbiote</a> 
+			<div class="nav-collapse collapse">
+				<ul class="nav">
+					<!-- {{#if currentUser}} -->
+            <li>
+              <a href="{{pathFor 'chattrIndex'}}">Chattr</a>
+            </li>
+            <li>
+              <a href="{{pathFor 'codrIndex'}}">Codr</a>
+            </li>
+            <li>
+              <a href="{{pathFor 'modelrIndex'}}">Modelr</a>
+            </li>
+            <li>
+              <a href="{{pathFor 'stylrIndex'}}">Stylr</a>
+            </li>
+          <!-- {{/if}} -->
+				</ul>
+				<ul class="nav pull-right">
+					<li>{{loginButtons}}</li> 
+				</ul>
+			</div> 
+		</header> 
+</template>
+
