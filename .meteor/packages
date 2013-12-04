@@ -17,3 +17,7 @@ underscore
 d3
 code-prettify
 router
+iron-router
+spin
+accounts-ui-bootstrap-dropdown
+accounts-password
