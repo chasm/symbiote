@@ -25,7 +25,24 @@ apse">
           <!-- {{/if}} -->
 				</ul>
 				<ul class="nav pull-right">
-					<li>{{loginButtons}}</li> 
+					{{#if currentUser}}
+            <li>
+              <img class="img-rounded" style="height: 32px; margin-top: 4px;" src="{{currentUser.profile.avatar_url}}"/>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                {{currentUser.profile.login}}
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a>Account Settings</a></li>
+                <li class="divider"></li>
+                <li><a id="logout">{{loginButtons}}</a></li>
+              </ul>
+            </li>
+          {{else}}
+            <li><a>{{loginButtons}}</a></li>
+          {{/if}}
 				</ul>
 			</div> 
 		</header> 
