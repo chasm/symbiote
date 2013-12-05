@@ -1,0 +1,28 @@
+<template name="adminAddUser">
+	<h1>Add a user</h1>
+	<form>
+    <div class="control-group">
+        <label class="control-label" for="github">Github Username</label>
+        <div class="controls">
+            <input name="github" type="text" value="" placeholder="User's Github Username"/>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label" for="role">Role</label>
+        <div class="controls">
+          <select>
+						<option value="guest">Guest</option>
+					  <option value="student">Student</option>
+					  <option value="instructor">Instructor</option>
+					</select>
+        </div>
+    </div> 
+
+    <div class="control-group">
+        <div class="controls">
+            <input type="submit" value="Submit" class="btn btn-primary"/>
+        </div>
+    </div>
+  </form>
+</template>

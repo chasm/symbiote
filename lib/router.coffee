@@ -9,5 +9,7 @@ Router.map ->
   @.route 'codrIndex', path: '/codr'
   @.route 'modelrIndex', path: '/modelr'
   @.route 'stylrIndex', path: '/stylr'
+
+  @.route 'adminAddUser', path: '/adminAddUser'
     
 
