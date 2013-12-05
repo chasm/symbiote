@@ -1,2 +1,0 @@
-Meteor.Router.add
-  '/': 'homePage'
