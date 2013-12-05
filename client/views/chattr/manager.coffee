@@ -1,4 +1,4 @@
-Template.chatSubmit.helpers
+Template.chitchat.helpers
   submittedText: -> new Date( @.submitted ).toString()
 Template.chatSubmit.events
   'submit form': (e, template) ->

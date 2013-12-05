@@ -1,4 +1,22 @@
 <template name="chitchat">
+ 
+    <h4>
+      {{author}} : {{body}}
+    </h4>
+    <p>{{submittedText}}</p>
+
+</template>
+
+<template name="resource">
+  <li>
+    <h4>
+      {{author}} : {{submittedText}}
+    </h4>
+    <p>{{body}}</p>
+  </li>
+</template>
+
+<template name="discussion">
   <li>
     <h4>
       {{author}} : {{submittedText}}
