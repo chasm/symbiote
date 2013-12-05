@@ -9,7 +9,7 @@ apse">
 			<a class="brand" href="{{pathFor 'dashboard'}}">Symbiote</a> 
 			<div class="nav-collapse collapse">
 				<ul class="nav">
-					<!-- {{#if currentUser}} -->
+					{{#if currentUser}}
             <li>
               <a href="{{pathFor 'chattrIndex'}}">Chattr</a>
             </li>
@@ -22,7 +22,7 @@ apse">
             <li>
               <a href="{{pathFor 'stylrIndex'}}">Stylr</a>
             </li>
-          <!-- {{/if}} -->
+          {{/if}}
 				</ul>
 				<ul class="nav pull-right">
 					{{#if currentUser}}
