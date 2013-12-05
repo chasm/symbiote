@@ -15,8 +15,9 @@ http
 underscore
 d3
 code-prettify
-router
 iron-router
 spin
-accounts-ui-bootstrap-dropdown
 accounts-github
+roles
+accounts-ui-bootstrap-3
+bootstrap3-less

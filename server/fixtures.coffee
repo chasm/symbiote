@@ -15,4 +15,3 @@ if Chitchats.find().count() == 0
       author: tom.profile.firstName
       submitted: now - 5 * 3600 * 1000
       body: 'Interesting project Sacha, can I get involved?'
-
