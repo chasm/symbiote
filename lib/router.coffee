@@ -1,6 +1,9 @@
 Router.configure
   layoutTemplate: 'layout'
   loadingTemplate: 'loading'
+  waitOn: -> [
+    Meteor.subscribe('chitchats')
+  ]
 
 Router.map ->
   @.route 'dashboard', path: '/'
