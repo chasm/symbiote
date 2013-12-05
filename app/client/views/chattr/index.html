@@ -1,4 +1,34 @@
 <template name="chattrIndex">
   <h1>Chattr</h1>
   <p>Hi! I'm the chattrIndex.</p>
+  <div class="row chatting-category">
+    <div class="col-lg-4"> <center><h4>Resources</h4></center></div>
+    <div class="col-lg-4"> <center><h4>Discussion</h4></center></div>
+    <div class="col-lg-4"> <center><h4>Chitchat</h4></center></div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-4 chatting-slots">
+      
+      
+    </div>
+    <div class="col-lg-4 chatting-slots">
+          
+           
+    </div>
+
+    <div class="col-lg-4 chatting-slots">
+     
+      {{> chitchatLog}}  
+    </div>
+  </div>
+
+  <div class="row input-box">
+    <div class="col-lg-4"> {{> chatSubmit}} </div>
+    <div class="col-lg-4"> {{> chatSubmit}} </div>
+    <div class="col-lg-4"> {{> chatSubmit}} </div>
+  </div>
+
+  
+
 </template>
