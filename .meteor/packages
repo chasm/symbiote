@@ -6,7 +6,6 @@
 standard-app-packages
 insecure
 preserve-inputs
-bootstrap
 coffeescript
 less
 jquery
@@ -20,3 +19,4 @@ spin
 accounts-ui-bootstrap-dropdown
 accounts-github
 roles
+bootstrap

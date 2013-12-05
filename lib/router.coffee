@@ -10,6 +10,6 @@ Router.map ->
   @.route 'modelrIndex', path: '/modelr'
   @.route 'stylrIndex', path: '/stylr'
 
-  @.route 'adminAddUser', path: '/adminAddUser'
+  @.route 'adminCohortIndex', path: '/admin/cohorts'
     
 
