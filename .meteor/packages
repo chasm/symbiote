@@ -16,7 +16,6 @@ d3
 code-prettify
 iron-router
 spin
-accounts-ui-bootstrap-dropdown
 accounts-github
 roles
-bootstrap
+bootstrap3-less
