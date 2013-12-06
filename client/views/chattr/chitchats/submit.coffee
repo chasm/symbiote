@@ -1,15 +1,13 @@
-Template.chitchat.helpers
-  submittedText: -> new Date( @.submitted ).toString()
-Template.chatSubmit.events
+Template.chitchatSubmit.events
   'submit form': (e, template) ->
     e.preventDefault()
 
     $body = $(e.target).find('[name=body]')
-    chat = {
+    chitchat = {
       body: $body.val()
     }
 
-    Meteor.call 'chat', chat, (error, chatId) ->
+    Meteor.call 'chitchat', chitchat, (error, chitchatId) ->
       if error
         throwError(error.reason)
       else 
