@@ -5,20 +5,13 @@ Template.chitchatLog.helpers
 Template.chitchat.helpers
   submittedText: -> new Date( @.submitted ).toString()
 
-# not working from here
-
+Template.chitchat.events
   'click .edit': (e) ->
     e.preventDefault()
     console.log($(e.target).html())
 
   'click .delete': (e) ->
-    console.log("test")
     e.preventDefault()
-    console.log("test")
-    if confirm("Delete this chat?")
-      currentChitchatId = $(e.target).data(id)
-      console.log(currentChitchatId)
-      Chitchats.remove currentChitchatId
-
+    Chitchats.remove $(e.target).data('id') if confirm("Delete this chat?")
 
       
