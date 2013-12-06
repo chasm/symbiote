@@ -1,9 +1,13 @@
 <template name="chitchat">
- 
+  <div class="chat" data-id={{_id}}>
     <h4>
-      {{author}} : {{body}}
+      {{author}} : {{body}} 
+      <a class="btn btn-info edit" href="#">E</a>
+      <a class="btn btn-danger delete" href="#">D</a>
     </h4>
     <p>{{submittedText}}</p>
+  </div>
+    
 
 </template>
 

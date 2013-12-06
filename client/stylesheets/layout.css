@@ -13,3 +13,20 @@
 	border: solid 2px gray;
 	height: 70px;
 }
+
+.chat:hover {
+text-decoration: none; background: rgba(0, 0, 0, 0.1);
+}
+
+.chat .delete {
+    display: none;
+}
+.chat .edit {
+    display: none;
+}
+.chat:hover .delete {
+    display: inline;
+}
+.chat:hover .edit {
+    display: inline;
+}
