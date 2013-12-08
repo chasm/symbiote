@@ -9,7 +9,7 @@ Template.chitchat.events
 
     message = Chitchats.findOne $(e.target).data('id')
     textarea = $('.chitchat-form textarea[name=body]')
-    textarea.html(message.body)
+    textarea.val(message.body)
     $('.chitchat-form').attr('data-id', message._id)
 
   'click .delete': (e) ->

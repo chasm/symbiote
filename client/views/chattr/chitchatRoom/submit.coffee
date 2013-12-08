@@ -4,9 +4,7 @@ Template.chitchatSubmit.events
     id=$(e.target).data('id')  
     console.log(id)  
     
-    # removeAttr not working? 
     $(e.target).removeAttr('data-id')
-    $('.chitchat-form').attr('data-id', '')
 
     if !id
 
@@ -21,7 +19,7 @@ Template.chitchatSubmit.events
         if error
           throwError(error.reason)
         else 
-          $body.val('')
+          $body.html('')
     else
     
       # edit
