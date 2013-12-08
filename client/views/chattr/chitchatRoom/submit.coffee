@@ -6,6 +6,7 @@ Template.chitchatSubmit.events
     
     # removeAttr not working? 
     $(e.target).removeAttr('data-id')
+    $('.chitchat-form').attr('data-id', '')
 
     if !id
 
