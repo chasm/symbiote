@@ -1,8 +1,7 @@
-# Add Symbiote fixtures here
-if AddedUsers.find().count() == 0
-  AddedUsers.insert username: "emarnett" unless Meteor.users.findOne profile: {login: "emarnett"}
-		
-# if Meteor.users.findOne profile: {login: "emarnett"}
-#   adminUser = Meteor.users.findOne profile: {login: "emarnett"}
-#   adminId = adminUser._id
-#   Roles.addUsersToRoles(adminId, ['admin'])
+if Meteor.users.find().count() == 0
+  Meteor.users.insert
+    username: "chasm"
+    cohorts: [ "WDI-1", "WDI-2" ]
+  Meteor.users.insert
+    username: "emarnett"
+    cohorts: [ "WDI-1" ]

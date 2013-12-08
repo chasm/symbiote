@@ -1,1 +1,2 @@
-# Symbiote main configuration file
+Array::empty = ->
+  @.length == 0
