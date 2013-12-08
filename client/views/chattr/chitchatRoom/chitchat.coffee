@@ -7,9 +7,11 @@ Template.chitchat.events
     e.preventDefault()
     console.log($(e.target).data('id'))
     
-    # how to send this chitchat to submit form?
-
-
+    message = Chitchats.findOne $(e.target).data('id')
+    textarea = $('.chitchat-form textarea[name=body]')
+    textarea.html(message.body)
+    $('.chitchat-form').attr('data-id', message._id)
+    
   'click .delete': (e) ->
     e.preventDefault()
     Chitchats.remove $(e.target).data('id') if confirm("Delete this chat?")

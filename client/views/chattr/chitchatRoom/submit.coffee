@@ -1,9 +1,13 @@
 Template.chitchatSubmit.events
   'submit form': (e, template) ->
     e.preventDefault()
+    id=$(e.target).data('id')  
+    console.log(id)  
     
+    # removeAttr not working? 
+    $(e.target).removeAttr('data-id')
 
-    if !this._id
+    if !id
 
       # create
       
@@ -20,14 +24,16 @@ Template.chitchatSubmit.events
     else
     
       # edit
-      currentChitchatId = this._id;
+      currentChitchatId = id;
 
       chitchatProperties = 
         body: $(e.target).find('[name=body]').val()
+        submitted: new Date().getTime()
       
       Chitchats.update currentChitchatId, $set: chitchatProperties, (error) ->
         if error
           # display the error to the user
           alert error.reason
         else
+          $(e.target).find('[name=body]').val('')
           Router.go 'chattrIndex'
