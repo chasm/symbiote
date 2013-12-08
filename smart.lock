@@ -4,8 +4,7 @@
     "basePackages": {
       "iron-router": {},
       "spin": {},
-      "roles": {},
-      "bootstrap3-less": {}
+      "roles": {}
     },
     "packages": {
       "iron-router": {
@@ -22,11 +21,6 @@
         "git": "https://github.com/alanning/meteor-roles.git",
         "tag": "v1.0.6",
         "commit": "f81cbf7c765a4ed7e16a580c288db6f10a90856b"
-      },
-      "bootstrap3-less": {
-        "git": "https://github.com/eprochasson/bootstrap3-less",
-        "tag": "v0.1.5",
-        "commit": "5074432c020ffc7a676a812e92104ce0fa96080f"
       }
     }
   }
