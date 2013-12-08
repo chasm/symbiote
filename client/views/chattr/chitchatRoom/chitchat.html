@@ -1,8 +1,10 @@
 <template name="chitchat">
   <div class="chat">
       <strong>{{author}} : {{body}}</strong>
-      <a class="btn btn-info edit" href="#" data-id={{_id}}>E</a>
-      <a class="btn btn-danger delete" href="#" data-id={{_id}}>D</a>
+      {{#if ownChitchat}}
+	      <a class="btn btn-info edit" href="#" data-id={{_id}}>E</a>
+	      <a class="btn btn-danger delete" href="#" data-id={{_id}}>D</a>
+	    {{/if}}
     <p>{{submittedText}}</p>
   </div>
 </template>
