@@ -38,9 +38,24 @@ Accounts.onCreateUser (options, user) ->
       asStudent:
         asStudent
         
+    _.each asStudent, (c) ->
+      cohort = Cohorts.findOne(c._id)
+      _.each cohort.students, (s) ->
+        if s.username == username
+          Cohorts.update(c._id, {$push: {studentIds: {_id: user._id, name: s.name} } })
+          user.profile.email = s.email
+          user.profile.name = s.name
+          Cohorts.update(c._id, {$pull: {students: {username: s.username}}})
+
     _.each asInstructor, (c) ->
       cohort = Cohorts.findOne(c._id)
-      console.log cohort
+      _.each cohort.instructors, (s) ->
+        if s.username == username
+          Cohorts.update(c._id, {$push: {instructorIds: {_id: user._id, name: s.name} } })
+          user.profile.email = s.email
+          user.profile.name = s.name
+          Cohorts.update(c._id, {$pull: {instructors: {name: s.name}}})
+
     user
   else
     throw "No user!"
