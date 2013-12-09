@@ -14,10 +14,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav side-nav">
-        <li class="active">
+        <li{{#if dashboard}} class="active"{{/if}}>
           <a href="{{pathFor 'dashboard'}}"><i class="fa fa-bar-chart-o"></i> Dashboard</a>
         </li>
-        <li>
+        <li {{#if chattr}}class="active"{{/if}}>
           <a href="{{pathFor 'chattrIndex'}}">
             <i class="fa fa-comments-o"></i>
             Chattr
@@ -28,19 +28,19 @@
             </span>
           </a>
         </li>
-        <li>
+        <li {{#if quizilla}}class="active"{{/if}}>
           <a href="{{pathFor 'quizillaIndex'}}"><i class="fa fa-question"></i> Quizilla</a>
         </li>
-        <li>
+        <li {{#if modelr}}class="active"{{/if}}>
           <a href="{{pathFor 'modelrIndex'}}"><i class="fa fa-sitemap"></i> Modelr</a>
         </li>
-        <li>
+        <li {{#if stylr}}class="active"{{/if}}>
           <a href="{{pathFor 'stylrIndex'}}"><i class="fa fa-pencil"></i> Stylr</a>
         </li>
-        <li>
+        <li {{#if codr}}class="active"{{/if}}>
           <a href="{{pathFor 'codrIndex'}}"><i class="fa fa-wrench"></i> Codr</a>
         </li>
-        <li>
+        <li {{#if profilr}}class="active"{{/if}}>
           <a href="{{pathFor 'profilrIndex'}}"><i class="fa fa-user"></i> Profilr</a>
         </li>
       </ul>

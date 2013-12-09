@@ -2,15 +2,15 @@
   {{#if cohorts}}
     <li class="dropdown cohorts-dropdown">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-        <i class="fa fa-user"></i> {{currentCohort}} <b class="caret"></b>
+        <i class="fa fa-home"></i> {{currentCohort}} <b class="caret"></b>
       </a>
       <ul class="dropdown-menu">
         {{#each cohorts}}
-          <li>{{this}}</li>
+          <li><a href="#">{{this}}</a></li>
         {{/each}}
       </ul>
     </li>
   {{else}}
-    <li>{{currentCohort}}</li>
+    <li><i class="fa fa-home"></i> {{currentCohort}}</li>
   {{/if}}
 </template>
