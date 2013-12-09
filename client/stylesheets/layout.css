@@ -1,7 +1,19 @@
-.chatting-slots {
-	border: solid 2px gray;
+.chatbox {
+	border: solid 1px gray;
 	height: 450px;
-	
+	overflow: auto;
+}
+
+ul.chat {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+ul.chat li {
+  padding: 2px 5px;
+  margin: 5px 2px 0;
+  border-radius: 5px;
 }
 
 .chatting-category {
@@ -14,19 +26,18 @@
 	height: 70px;
 }
 
-.chat:hover {
-text-decoration: none; background: rgba(0, 0, 0, 0.1);
+.chat li:hover {
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.1);
 }
 
-.chat .delete {
-    display: none;
+.chat li .delete,
+.chat li .edit {
+  padding: 0 3px;
+  display: none;
 }
-.chat .edit {
-    display: none;
-}
-.chat:hover .delete {
-    display: inline;
-}
-.chat:hover .edit {
-    display: inline;
+
+.chat li:hover .delete,
+.chat li:hover .edit {
+  display: inline;
 }

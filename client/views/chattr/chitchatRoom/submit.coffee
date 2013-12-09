@@ -1,38 +1,33 @@
 Template.chitchatSubmit.events
-  'submit form': (e, template) ->
+  'submit #chitchat-submit': (e, template) ->
     e.preventDefault()
-    id=$(e.target).data('id')  
-    console.log(id)  
     
-    $(e.target).removeAttr('data-id')
+    form = $('#chitchat-submit')
+    id = form.data('id')
+    body = form.find('[name=body]')
+    chatbox = $('#chitchats')
+    chatUl = chatbox.find('.chat')
 
     if !id
-
-      # create
-      
-      $body = $(e.target).find('[name=body]')
-      chitchat = 
-        body: $body.val()
-      
-
+      chitchat = body: body.val()
       Meteor.call 'chitchat', chitchat, (error, chitchatId) ->
         if error
-          throwError(error.reason)
+          alert error.reason
         else 
-          $body.html('')
+          form[0].reset()
+          form.removeData('id')
     else
-    
-      # edit
-      currentChitchatId = id;
-
-      chitchatProperties = 
-        body: $(e.target).find('[name=body]').val()
-        submitted: new Date().getTime()
+      chitchat = 
+        body: body.val()
+        submittedAt: new Date().getTime()
       
-      Chitchats.update currentChitchatId, $set: chitchatProperties, (error) ->
+      Chitchats.update id, $set: chitchat, (error) ->
         if error
-          # display the error to the user
           alert error.reason
         else
-          $(e.target).find('[name=body]').val('')
+          form[0].reset()
+          form.removeData('id')
           Router.go 'chattrIndex'
+    
+    chatbox.animate
+      scrollTop: chatUl.innerHeight(), 300

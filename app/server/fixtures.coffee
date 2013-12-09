@@ -97,12 +97,12 @@ if Chitchats.find().count() == 0
     Chitchats.insert
       userId: tom._id
       author: tom.profile.login
-      submitted: now - 5 * 3600 * 1000
+      submittedAt: now - 5 * 3600 * 1000
       body: 'Interesting project Sacha, can I get involved?'
 
    if som?
     Chitchats.insert
       userId: som._id
       author: som.profile.login
-      submitted: now - 5 * 3600 * 1000
+      submittedAt: now - 5 * 3600 * 1000
       body: 'Sure, you can!'

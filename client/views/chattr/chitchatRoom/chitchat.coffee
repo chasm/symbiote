@@ -1,17 +1,20 @@
 Template.chitchat.helpers
-  submittedText: -> new Date( @.submitted ).toString()
+  submittedText: -> new Date( @.submittedAt ).toString()
   ownChitchat: -> @.userId == Meteor.userId()
 
 Template.chitchat.events
   'click .edit': (e) ->
     e.preventDefault()
-    console.log($(e.target).data('id'))
+    id = $(e.target).data('id')
+    console.log id
 
-    message = Chitchats.findOne $(e.target).data('id')
-    textarea = $('.chitchat-form textarea[name=body]')
+    message = Chitchats.findOne id
+    form = $('#chitchat-submit')
+    textarea = form.find('textarea[name=body]')
     textarea.val(message.body)
-    $('.chitchat-form').attr('data-id', message._id)
+    form.data('id', message._id)
 
   'click .delete': (e) ->
     e.preventDefault()
-    Chitchats.remove $(e.target).data('id') if confirm("Delete this chat?")
+    id = $(e.target).data('id')
+    Chitchats.remove id if confirm("Delete this chat?")

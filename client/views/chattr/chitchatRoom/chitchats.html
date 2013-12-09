@@ -1,7 +1,9 @@
 <template name="chitchats">
-  <div class="chitchats">
-    {{#each chitchats}}
-      {{> chitchat}}
-    {{/each}}
+  <div id="chitchats" class="chatbox">
+    <ul class="chat">
+      {{#each chitchats}}
+        {{> chitchat}}
+      {{/each}}
+    </ul>
   </div>
 </template>
