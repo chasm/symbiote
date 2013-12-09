@@ -35,4 +35,41 @@ if Cohorts.find().count() == 0
         email: "charles.munat@gmail.com"
         name: "Charles Munat"
       }
+      {
+        username: "nodu"
+        email: "mnodurft@gmail.com"
+        name: "Matt Nodurfth"
+      }
+      {
+        username: "3dd13"
+        email: "eddie.lau@generalassemb.ly"
+        name: "Eddie Lau"
+      }
+    ]
+  Cohorts.insert
+    name: "WDI-2"
+    description: "The BESTER WDI EVA!"
+    startsOn: new Date(2014,1,14)
+    endsOn: new Date(2014,4,6)
+    program: "WDI"
+    studentIds: []
+    instructorIds: []
+    students: [
+      {
+        username: "emarnett"
+        email: "em_arnett@hotmail.com"
+        name: "Emily Arnett"
+      }
+    ]
+    instructors: [
+      {
+        username: "chasm"
+        email: "charles.munat@gmail.com"
+        name: "Charles Munat"
+      }
+      {
+        username: "3dd13"
+        email: "eddie.lau@generalassemb.ly"
+        name: "Eddie Lau"
+      }
     ]
