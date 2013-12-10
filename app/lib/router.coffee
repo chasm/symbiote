@@ -3,6 +3,7 @@ Router.configure
   loadingTemplate: 'loading'
   waitOn: -> [
     Meteor.subscribe('chitchats')
+    Meteor.subscribe('discussions')
   ]
 
 Router.map ->

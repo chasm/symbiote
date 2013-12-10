@@ -106,3 +106,20 @@ if Chitchats.find().count() == 0
       author: som.profile.login
       submittedAt: now - 5 * 3600 * 1000
       body: 'Sure, you can!'
+
+if Discussions.find().count() == 0
+  now = new Date().getTime()
+
+  if tom?
+    Discussions.insert
+      userId: tom._id
+      author: tom.profile.login
+      submittedAt: now - 5 * 3600 * 1000
+      body: 'Interesting project Sacha, can I get involved?'
+
+   if som?
+    Discussions.insert
+      userId: som._id
+      author: som.profile.login
+      submittedAt: now - 5 * 3600 * 1000
+      body: 'Sure, you can!'

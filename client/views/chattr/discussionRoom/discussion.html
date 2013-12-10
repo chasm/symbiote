@@ -1,8 +1,8 @@
-<template name="chitchat">
-  <li >
-    <div class="draggable">
+<template name="discussion">
+  <li>
+    <div>
       <strong>{{author}} says:</strong>
-      {{#if ownChitchat}}
+      {{#if ownDiscussion}}
         <span class="pull-right">
   	      <a class="edit" href="#" data-id={{_id}}>edit</a>
   	      <a class="delete" href="#" data-id={{_id}}>delete</a>
