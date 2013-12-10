@@ -21,14 +21,14 @@ Template.chitchat.events
     Chitchats.remove id if confirm("Delete this chat?")
 
 Template.chitchat.rendered = (e) ->
-  $('.draggable').draggable
+  $('.chitchat').draggable
     helper: 'clone',
     revert: 'invalid',
     appendTo: 'body'
     drag: (e,ui) -> 
       id=$(e.target).data('id')
-      chitchat=Chitchats.findOne(id)
-      chitchat.userId == Meteor.userId()
+      chat=Chitchats.findOne(id)
+      chat.userId == Meteor.userId()
       
 
 
