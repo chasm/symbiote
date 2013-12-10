@@ -1,0 +1,1 @@
+@Wireframes = new Meteor.Collection 'wireframes'
