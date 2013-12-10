@@ -1,6 +1,115 @@
-if (typeof __coverage__ === 'undefined') { __coverage__ = {}; }
-if (!__coverage__['/Users/aries/Workspace/symbiote/app/client/scripts/030.button.js']) {
-   __coverage__['/Users/aries/Workspace/symbiote/app/client/scripts/030.button.js'] = {"path":"/Users/aries/Workspace/symbiote/app/client/scripts/030.button.js","s":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0,"13":0,"14":0,"15":0,"16":0,"17":0,"18":0,"19":0,"20":0,"21":0,"22":0,"23":0,"24":0,"25":0,"26":0,"27":0,"28":0,"29":0,"30":0,"31":0,"32":0,"33":0,"34":0,"35":0,"36":0,"37":0,"38":0,"39":0,"40":0,"41":0,"42":0,"43":0,"44":0,"45":0,"46":0,"47":0,"48":0,"49":0,"50":0,"51":0},"b":{"1":[0,0],"2":[0,0],"3":[0,0],"4":[0,0],"5":[0,0],"6":[0,0],"7":[0,0],"8":[0,0],"9":[0,0],"10":[0,0],"11":[0,0],"12":[0,0],"13":[0,0],"14":[0,0],"15":[0,0]},"f":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0},"fnMap":{"1":{"name":"(anonymous_1)","line":21,"loc":{"start":{"line":21,"column":1},"end":{"line":21,"column":14}}},"2":{"name":"(anonymous_2)","line":26,"loc":{"start":{"line":26,"column":15},"end":{"line":26,"column":43}}},"3":{"name":"(anonymous_3)","line":35,"loc":{"start":{"line":35,"column":30},"end":{"line":35,"column":47}}},"4":{"name":"(anonymous_4)","line":48,"loc":{"start":{"line":48,"column":15},"end":{"line":48,"column":27}}},"5":{"name":"(anonymous_5)","line":55,"loc":{"start":{"line":55,"column":28},"end":{"line":55,"column":40}}},"6":{"name":"(anonymous_6)","line":80,"loc":{"start":{"line":80,"column":16},"end":{"line":80,"column":34}}},"7":{"name":"(anonymous_7)","line":81,"loc":{"start":{"line":81,"column":21},"end":{"line":81,"column":33}}},"8":{"name":"(anonymous_8)","line":99,"loc":{"start":{"line":99,"column":27},"end":{"line":99,"column":39}}},"9":{"name":"(anonymous_9)","line":108,"loc":{"start":{"line":108,"column":70},"end":{"line":108,"column":83}}}},"statementMap":{"1":{"start":{"line":21,"column":0},"end":{"line":115,"column":10}},"2":{"start":{"line":26,"column":2},"end":{"line":31,"column":2}},"3":{"start":{"line":27,"column":4},"end":{"line":28,"column":4}},"4":{"start":{"line":28,"column":4},"end":{"line":29,"column":2}},"5":{"start":{"line":31,"column":2},"end":{"line":35,"column":2}},"6":{"start":{"line":35,"column":2},"end":{"line":55,"column":2}},"7":{"start":{"line":36,"column":4},"end":{"line":37,"column":4}},"8":{"start":{"line":37,"column":4},"end":{"line":38,"column":4}},"9":{"start":{"line":38,"column":4},"end":{"line":39,"column":4}},"10":{"start":{"line":39,"column":4},"end":{"line":41,"column":4}},"11":{"start":{"line":41,"column":4},"end":{"line":43,"column":4}},"12":{"start":{"line":43,"column":4},"end":{"line":45,"column":4}},"13":{"start":{"line":43,"column":25},"end":{"line":45,"column":4}},"14":{"start":{"line":45,"column":4},"end":{"line":48,"column":4}},"15":{"start":{"line":48,"column":4},"end":{"line":53,"column":2}},"16":{"start":{"line":49,"column":6},"end":{"line":51,"column":41}},"17":{"start":{"line":55,"column":2},"end":{"line":78,"column":2}},"18":{"start":{"line":56,"column":4},"end":{"line":57,"column":4}},"19":{"start":{"line":57,"column":4},"end":{"line":59,"column":4}},"20":{"start":{"line":59,"column":4},"end":{"line":69,"column":5}},"21":{"start":{"line":60,"column":6},"end":{"line":61,"column":6}},"22":{"start":{"line":61,"column":6},"end":{"line":67,"column":7}},"23":{"start":{"line":63,"column":8},"end":{"line":67,"column":6}},"24":{"start":{"line":64,"column":10},"end":{"line":65,"column":8}},"25":{"start":{"line":66,"column":10},"end":{"line":67,"column":6}},"26":{"start":{"line":68,"column":6},"end":{"line":69,"column":4}},"27":{"start":{"line":68,"column":19},"end":{"line":69,"column":4}},"28":{"start":{"line":71,"column":4},"end":{"line":72,"column":2}},"29":{"start":{"line":71,"column":17},"end":{"line":72,"column":2}},"30":{"start":{"line":78,"column":2},"end":{"line":80,"column":2}},"31":{"start":{"line":80,"column":2},"end":{"line":93,"column":2}},"32":{"start":{"line":81,"column":4},"end":{"line":91,"column":2}},"33":{"start":{"line":82,"column":6},"end":{"line":83,"column":6}},"34":{"start":{"line":83,"column":6},"end":{"line":84,"column":6}},"35":{"start":{"line":84,"column":6},"end":{"line":86,"column":6}},"36":{"start":{"line":86,"column":6},"end":{"line":88,"column":6}},"37":{"start":{"line":86,"column":17},"end":{"line":88,"column":6}},"38":{"start":{"line":88,"column":6},"end":{"line":90,"column":4}},"39":{"start":{"line":88,"column":30},"end":{"line":89,"column":6}},"40":{"start":{"line":89,"column":11},"end":{"line":90,"column":4}},"41":{"start":{"line":89,"column":23},"end":{"line":90,"column":4}},"42":{"start":{"line":93,"column":2},"end":{"line":99,"column":2}},"43":{"start":{"line":99,"column":2},"end":{"line":108,"column":2}},"44":{"start":{"line":100,"column":4},"end":{"line":101,"column":4}},"45":{"start":{"line":101,"column":4},"end":{"line":102,"column":2}},"46":{"start":{"line":108,"column":2},"end":{"line":115,"column":0}},"47":{"start":{"line":109,"column":4},"end":{"line":110,"column":4}},"48":{"start":{"line":110,"column":4},"end":{"line":111,"column":4}},"49":{"start":{"line":110,"column":31},"end":{"line":111,"column":4}},"50":{"start":{"line":111,"column":4},"end":{"line":112,"column":4}},"51":{"start":{"line":112,"column":4},"end":{"line":113,"column":2}}},"branchMap":{"1":{"line":38,"type":"cond-expr","locations":[{"start":{"line":38,"column":33},"end":{"line":38,"column":38}},{"start":{"line":38,"column":41},"end":{"line":38,"column":47}}]},"2":{"line":43,"type":"if","locations":[{"start":{"line":43,"column":4},"end":{"line":43,"column":4}},{"start":{"line":43,"column":4},"end":{"line":43,"column":4}}]},"3":{"line":45,"type":"binary-expr","locations":[{"start":{"line":45,"column":13},"end":{"line":45,"column":24}},{"start":{"line":45,"column":28},"end":{"line":45,"column":47}}]},"4":{"line":49,"type":"cond-expr","locations":[{"start":{"line":50,"column":8},"end":{"line":50,"column":34}},{"start":{"line":51,"column":8},"end":{"line":51,"column":40}}]},"5":{"line":59,"type":"if","locations":[{"start":{"line":59,"column":4},"end":{"line":59,"column":4}},{"start":{"line":59,"column":4},"end":{"line":59,"column":4}}]},"6":{"line":61,"type":"if","locations":[{"start":{"line":61,"column":6},"end":{"line":61,"column":6}},{"start":{"line":61,"column":6},"end":{"line":61,"column":6}}]},"7":{"line":63,"type":"if","locations":[{"start":{"line":63,"column":8},"end":{"line":63,"column":8}},{"start":{"line":63,"column":8},"end":{"line":63,"column":8}}]},"8":{"line":63,"type":"binary-expr","locations":[{"start":{"line":63,"column":12},"end":{"line":63,"column":34}},{"start":{"line":63,"column":38},"end":{"line":63,"column":70}}]},"9":{"line":68,"type":"if","locations":[{"start":{"line":68,"column":6},"end":{"line":68,"column":6}},{"start":{"line":68,"column":6},"end":{"line":68,"column":6}}]},"10":{"line":71,"type":"if","locations":[{"start":{"line":71,"column":4},"end":{"line":71,"column":4}},{"start":{"line":71,"column":4},"end":{"line":71,"column":4}}]},"11":{"line":84,"type":"binary-expr","locations":[{"start":{"line":84,"column":20},"end":{"line":84,"column":45}},{"start":{"line":84,"column":49},"end":{"line":84,"column":55}}]},"12":{"line":86,"type":"if","locations":[{"start":{"line":86,"column":6},"end":{"line":86,"column":6}},{"start":{"line":86,"column":6},"end":{"line":86,"column":6}}]},"13":{"line":88,"type":"if","locations":[{"start":{"line":88,"column":6},"end":{"line":88,"column":6}},{"start":{"line":88,"column":6},"end":{"line":88,"column":6}}]},"14":{"line":89,"type":"if","locations":[{"start":{"line":89,"column":11},"end":{"line":89,"column":11}},{"start":{"line":89,"column":11},"end":{"line":89,"column":11}}]},"15":{"line":110,"type":"if","locations":[{"start":{"line":110,"column":4},"end":{"line":110,"column":4}},{"start":{"line":110,"column":4},"end":{"line":110,"column":4}}]}}};
-}
-var __cov_264mkrhKx$77bMMSLLqovA = __coverage__['/Users/aries/Workspace/symbiote/app/client/scripts/030.button.js'];
-__cov_264mkrhKx$77bMMSLLqovA.s['1']++;+function($){'use strict';__cov_264mkrhKx$77bMMSLLqovA.f['1']++;__cov_264mkrhKx$77bMMSLLqovA.s['2']++;var Button=function(element,options){__cov_264mkrhKx$77bMMSLLqovA.f['2']++;__cov_264mkrhKx$77bMMSLLqovA.s['3']++;this.$element=$(element);__cov_264mkrhKx$77bMMSLLqovA.s['4']++;this.options=$.extend({},Button.DEFAULTS,options);};__cov_264mkrhKx$77bMMSLLqovA.s['5']++;Button.DEFAULTS={loadingText:'loading...'};__cov_264mkrhKx$77bMMSLLqovA.s['6']++;Button.prototype.setState=function(state){__cov_264mkrhKx$77bMMSLLqovA.f['3']++;__cov_264mkrhKx$77bMMSLLqovA.s['7']++;var d='disabled';__cov_264mkrhKx$77bMMSLLqovA.s['8']++;var $el=this.$element;__cov_264mkrhKx$77bMMSLLqovA.s['9']++;var val=$el.is('input')?(__cov_264mkrhKx$77bMMSLLqovA.b['1'][0]++,'val'):(__cov_264mkrhKx$77bMMSLLqovA.b['1'][1]++,'html');__cov_264mkrhKx$77bMMSLLqovA.s['10']++;var data=$el.data();__cov_264mkrhKx$77bMMSLLqovA.s['11']++;state=state+'Text';__cov_264mkrhKx$77bMMSLLqovA.s['12']++;if(!data.resetText){__cov_264mkrhKx$77bMMSLLqovA.b['2'][0]++;__cov_264mkrhKx$77bMMSLLqovA.s['13']++;$el.data('resetText',$el[val]());}else{__cov_264mkrhKx$77bMMSLLqovA.b['2'][1]++;}__cov_264mkrhKx$77bMMSLLqovA.s['14']++;$el[val]((__cov_264mkrhKx$77bMMSLLqovA.b['3'][0]++,data[state])||(__cov_264mkrhKx$77bMMSLLqovA.b['3'][1]++,this.options[state]));__cov_264mkrhKx$77bMMSLLqovA.s['15']++;setTimeout(function(){__cov_264mkrhKx$77bMMSLLqovA.f['4']++;__cov_264mkrhKx$77bMMSLLqovA.s['16']++;state=='loadingText'?(__cov_264mkrhKx$77bMMSLLqovA.b['4'][0]++,$el.addClass(d).attr(d,d)):(__cov_264mkrhKx$77bMMSLLqovA.b['4'][1]++,$el.removeClass(d).removeAttr(d));},0);};__cov_264mkrhKx$77bMMSLLqovA.s['17']++;Button.prototype.toggle=function(){__cov_264mkrhKx$77bMMSLLqovA.f['5']++;__cov_264mkrhKx$77bMMSLLqovA.s['18']++;var $parent=this.$element.closest('[data-toggle="buttons"]');__cov_264mkrhKx$77bMMSLLqovA.s['19']++;var changed=true;__cov_264mkrhKx$77bMMSLLqovA.s['20']++;if($parent.length){__cov_264mkrhKx$77bMMSLLqovA.b['5'][0]++;__cov_264mkrhKx$77bMMSLLqovA.s['21']++;var $input=this.$element.find('input');__cov_264mkrhKx$77bMMSLLqovA.s['22']++;if($input.prop('type')==='radio'){__cov_264mkrhKx$77bMMSLLqovA.b['6'][0]++;__cov_264mkrhKx$77bMMSLLqovA.s['23']++;if((__cov_264mkrhKx$77bMMSLLqovA.b['8'][0]++,$input.prop('checked'))&&(__cov_264mkrhKx$77bMMSLLqovA.b['8'][1]++,this.$element.hasClass('active'))){__cov_264mkrhKx$77bMMSLLqovA.b['7'][0]++;__cov_264mkrhKx$77bMMSLLqovA.s['24']++;changed=false;}else{__cov_264mkrhKx$77bMMSLLqovA.b['7'][1]++;__cov_264mkrhKx$77bMMSLLqovA.s['25']++;$parent.find('.active').removeClass('active');}}else{__cov_264mkrhKx$77bMMSLLqovA.b['6'][1]++;}__cov_264mkrhKx$77bMMSLLqovA.s['26']++;if(changed){__cov_264mkrhKx$77bMMSLLqovA.b['9'][0]++;__cov_264mkrhKx$77bMMSLLqovA.s['27']++;$input.prop('checked',!this.$element.hasClass('active')).trigger('change');}else{__cov_264mkrhKx$77bMMSLLqovA.b['9'][1]++;}}else{__cov_264mkrhKx$77bMMSLLqovA.b['5'][1]++;}__cov_264mkrhKx$77bMMSLLqovA.s['28']++;if(changed){__cov_264mkrhKx$77bMMSLLqovA.b['10'][0]++;__cov_264mkrhKx$77bMMSLLqovA.s['29']++;this.$element.toggleClass('active');}else{__cov_264mkrhKx$77bMMSLLqovA.b['10'][1]++;}};__cov_264mkrhKx$77bMMSLLqovA.s['30']++;var old=$.fn.button;__cov_264mkrhKx$77bMMSLLqovA.s['31']++;$.fn.button=function(option){__cov_264mkrhKx$77bMMSLLqovA.f['6']++;__cov_264mkrhKx$77bMMSLLqovA.s['32']++;return this.each(function(){__cov_264mkrhKx$77bMMSLLqovA.f['7']++;__cov_264mkrhKx$77bMMSLLqovA.s['33']++;var $this=$(this);__cov_264mkrhKx$77bMMSLLqovA.s['34']++;var data=$this.data('bs.button');__cov_264mkrhKx$77bMMSLLqovA.s['35']++;var options=(__cov_264mkrhKx$77bMMSLLqovA.b['11'][0]++,typeof option=='object')&&(__cov_264mkrhKx$77bMMSLLqovA.b['11'][1]++,option);__cov_264mkrhKx$77bMMSLLqovA.s['36']++;if(!data){__cov_264mkrhKx$77bMMSLLqovA.b['12'][0]++;__cov_264mkrhKx$77bMMSLLqovA.s['37']++;$this.data('bs.button',data=new Button(this,options));}else{__cov_264mkrhKx$77bMMSLLqovA.b['12'][1]++;}__cov_264mkrhKx$77bMMSLLqovA.s['38']++;if(option=='toggle'){__cov_264mkrhKx$77bMMSLLqovA.b['13'][0]++;__cov_264mkrhKx$77bMMSLLqovA.s['39']++;data.toggle();}else{__cov_264mkrhKx$77bMMSLLqovA.b['13'][1]++;__cov_264mkrhKx$77bMMSLLqovA.s['40']++;if(option){__cov_264mkrhKx$77bMMSLLqovA.b['14'][0]++;__cov_264mkrhKx$77bMMSLLqovA.s['41']++;data.setState(option);}else{__cov_264mkrhKx$77bMMSLLqovA.b['14'][1]++;}}});};__cov_264mkrhKx$77bMMSLLqovA.s['42']++;$.fn.button.Constructor=Button;__cov_264mkrhKx$77bMMSLLqovA.s['43']++;$.fn.button.noConflict=function(){__cov_264mkrhKx$77bMMSLLqovA.f['8']++;__cov_264mkrhKx$77bMMSLLqovA.s['44']++;$.fn.button=old;__cov_264mkrhKx$77bMMSLLqovA.s['45']++;return this;};__cov_264mkrhKx$77bMMSLLqovA.s['46']++;$(document).on('click.bs.button.data-api','[data-toggle^=button]',function(e){__cov_264mkrhKx$77bMMSLLqovA.f['9']++;__cov_264mkrhKx$77bMMSLLqovA.s['47']++;var $btn=$(e.target);__cov_264mkrhKx$77bMMSLLqovA.s['48']++;if(!$btn.hasClass('btn')){__cov_264mkrhKx$77bMMSLLqovA.b['15'][0]++;__cov_264mkrhKx$77bMMSLLqovA.s['49']++;$btn=$btn.closest('.btn');}else{__cov_264mkrhKx$77bMMSLLqovA.b['15'][1]++;}__cov_264mkrhKx$77bMMSLLqovA.s['50']++;$btn.button('toggle');__cov_264mkrhKx$77bMMSLLqovA.s['51']++;e.preventDefault();});}(jQuery);
+/* ========================================================================
+ * Bootstrap: button.js v3.0.3
+ * http://getbootstrap.com/javascript/#buttons
+ * ========================================================================
+ * Copyright 2013 Twitter, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * ======================================================================== */
+
+
++function ($) { "use strict";
+
+  // BUTTON PUBLIC CLASS DEFINITION
+  // ==============================
+
+  var Button = function (element, options) {
+    this.$element = $(element)
+    this.options  = $.extend({}, Button.DEFAULTS, options)
+  }
+
+  Button.DEFAULTS = {
+    loadingText: 'loading...'
+  }
+
+  Button.prototype.setState = function (state) {
+    var d    = 'disabled'
+    var $el  = this.$element
+    var val  = $el.is('input') ? 'val' : 'html'
+    var data = $el.data()
+
+    state = state + 'Text'
+
+    if (!data.resetText) $el.data('resetText', $el[val]())
+
+    $el[val](data[state] || this.options[state])
+
+    // push to event loop to allow forms to submit
+    setTimeout(function () {
+      state == 'loadingText' ?
+        $el.addClass(d).attr(d, d) :
+        $el.removeClass(d).removeAttr(d);
+    }, 0)
+  }
+
+  Button.prototype.toggle = function () {
+    var $parent = this.$element.closest('[data-toggle="buttons"]')
+    var changed = true
+
+    if ($parent.length) {
+      var $input = this.$element.find('input')
+      if ($input.prop('type') === 'radio') {
+        // see if clicking on current one
+        if ($input.prop('checked') && this.$element.hasClass('active'))
+          changed = false
+        else
+          $parent.find('.active').removeClass('active')
+      }
+      if (changed) $input.prop('checked', !this.$element.hasClass('active')).trigger('change')
+    }
+
+    if (changed) this.$element.toggleClass('active')
+  }
+
+
+  // BUTTON PLUGIN DEFINITION
+  // ========================
+
+  var old = $.fn.button
+
+  $.fn.button = function (option) {
+    return this.each(function () {
+      var $this   = $(this)
+      var data    = $this.data('bs.button')
+      var options = typeof option == 'object' && option
+
+      if (!data) $this.data('bs.button', (data = new Button(this, options)))
+
+      if (option == 'toggle') data.toggle()
+      else if (option) data.setState(option)
+    })
+  }
+
+  $.fn.button.Constructor = Button
+
+
+  // BUTTON NO CONFLICT
+  // ==================
+
+  $.fn.button.noConflict = function () {
+    $.fn.button = old
+    return this
+  }
+
+
+  // BUTTON DATA-API
+  // ===============
+
+  $(document).on('click.bs.button.data-api', '[data-toggle^=button]', function (e) {
+    var $btn = $(e.target)
+    if (!$btn.hasClass('btn')) $btn = $btn.closest('.btn')
+    $btn.button('toggle')
+    e.preventDefault()
+  })
+
+}(jQuery);

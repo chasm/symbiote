@@ -1,6 +1,135 @@
-if (typeof __coverage__ === 'undefined') { __coverage__ = {}; }
-if (!__coverage__['/Users/aries/Workspace/symbiote/app/client/scripts/110.tab.js']) {
-   __coverage__['/Users/aries/Workspace/symbiote/app/client/scripts/110.tab.js'] = {"path":"/Users/aries/Workspace/symbiote/app/client/scripts/110.tab.js","s":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0,"13":0,"14":0,"15":0,"16":0,"17":0,"18":0,"19":0,"20":0,"21":0,"22":0,"23":0,"24":0,"25":1,"26":0,"27":0,"28":0,"29":0,"30":0,"31":0,"32":0,"33":0,"34":0,"35":0,"36":0,"37":0,"38":0,"39":0,"40":0,"41":0,"42":0,"43":0,"44":0,"45":0,"46":0,"47":0,"48":0,"49":0,"50":0,"51":0,"52":0},"b":{"1":[0,0],"2":[0,0],"3":[0,0],"4":[0,0],"5":[0,0,0],"6":[0,0],"7":[0,0],"8":[0,0],"9":[0,0],"10":[0,0],"11":[0,0]},"f":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0},"fnMap":{"1":{"name":"(anonymous_1)","line":21,"loc":{"start":{"line":21,"column":1},"end":{"line":21,"column":14}}},"2":{"name":"(anonymous_2)","line":26,"loc":{"start":{"line":26,"column":12},"end":{"line":26,"column":31}}},"3":{"name":"(anonymous_3)","line":30,"loc":{"start":{"line":30,"column":23},"end":{"line":30,"column":35}}},"4":{"name":"(anonymous_4)","line":54,"loc":{"start":{"line":54,"column":45},"end":{"line":54,"column":57}}},"5":{"name":"(anonymous_5)","line":62,"loc":{"start":{"line":62,"column":27},"end":{"line":62,"column":67}}},"6":{"name":"next","line":68,"loc":{"start":{"line":68,"column":4},"end":{"line":68,"column":20}}},"7":{"name":"(anonymous_7)","line":105,"loc":{"start":{"line":105,"column":13},"end":{"line":105,"column":33}}},"8":{"name":"(anonymous_8)","line":106,"loc":{"start":{"line":106,"column":21},"end":{"line":106,"column":33}}},"9":{"name":"(anonymous_9)","line":121,"loc":{"start":{"line":121,"column":24},"end":{"line":121,"column":36}}},"10":{"name":"(anonymous_10)","line":130,"loc":{"start":{"line":130,"column":87},"end":{"line":130,"column":100}}}},"statementMap":{"1":{"start":{"line":21,"column":0},"end":{"line":135,"column":10}},"2":{"start":{"line":26,"column":2},"end":{"line":30,"column":2}},"3":{"start":{"line":27,"column":4},"end":{"line":28,"column":2}},"4":{"start":{"line":30,"column":2},"end":{"line":62,"column":2}},"5":{"start":{"line":31,"column":4},"end":{"line":32,"column":4}},"6":{"start":{"line":32,"column":4},"end":{"line":33,"column":4}},"7":{"start":{"line":33,"column":4},"end":{"line":35,"column":4}},"8":{"start":{"line":35,"column":4},"end":{"line":38,"column":5}},"9":{"start":{"line":36,"column":6},"end":{"line":37,"column":6}},"10":{"start":{"line":37,"column":6},"end":{"line":38,"column":4}},"11":{"start":{"line":40,"column":4},"end":{"line":40,"column":53}},"12":{"start":{"line":40,"column":47},"end":{"line":40,"column":53}},"13":{"start":{"line":42,"column":4},"end":{"line":43,"column":4}},"14":{"start":{"line":43,"column":4},"end":{"line":47,"column":4}},"15":{"start":{"line":47,"column":4},"end":{"line":49,"column":4}},"16":{"start":{"line":49,"column":4},"end":{"line":49,"column":38}},"17":{"start":{"line":49,"column":32},"end":{"line":49,"column":38}},"18":{"start":{"line":51,"column":4},"end":{"line":53,"column":4}},"19":{"start":{"line":53,"column":4},"end":{"line":54,"column":4}},"20":{"start":{"line":54,"column":4},"end":{"line":60,"column":2}},"21":{"start":{"line":55,"column":6},"end":{"line":59,"column":4}},"22":{"start":{"line":62,"column":2},"end":{"line":103,"column":2}},"23":{"start":{"line":63,"column":4},"end":{"line":64,"column":4}},"24":{"start":{"line":64,"column":4},"end":{"line":68,"column":4}},"25":{"start":{"line":68,"column":4},"end":{"line":88,"column":5}},"26":{"start":{"line":69,"column":6},"end":{"line":74,"column":6}},"27":{"start":{"line":74,"column":6},"end":{"line":76,"column":6}},"28":{"start":{"line":76,"column":6},"end":{"line":81,"column":7}},"29":{"start":{"line":77,"column":8},"end":{"line":78,"column":8}},"30":{"start":{"line":78,"column":8},"end":{"line":79,"column":6}},"31":{"start":{"line":80,"column":8},"end":{"line":81,"column":6}},"32":{"start":{"line":83,"column":6},"end":{"line":85,"column":7}},"33":{"start":{"line":84,"column":8},"end":{"line":85,"column":6}},"34":{"start":{"line":87,"column":6},"end":{"line":88,"column":4}},"35":{"start":{"line":90,"column":4},"end":{"line":96,"column":4}},"36":{"start":{"line":96,"column":4},"end":{"line":97,"column":2}},"37":{"start":{"line":103,"column":2},"end":{"line":105,"column":2}},"38":{"start":{"line":105,"column":2},"end":{"line":115,"column":2}},"39":{"start":{"line":106,"column":4},"end":{"line":113,"column":2}},"40":{"start":{"line":107,"column":6},"end":{"line":108,"column":6}},"41":{"start":{"line":108,"column":6},"end":{"line":110,"column":6}},"42":{"start":{"line":110,"column":6},"end":{"line":111,"column":6}},"43":{"start":{"line":110,"column":17},"end":{"line":111,"column":6}},"44":{"start":{"line":111,"column":6},"end":{"line":112,"column":4}},"45":{"start":{"line":111,"column":37},"end":{"line":112,"column":4}},"46":{"start":{"line":115,"column":2},"end":{"line":121,"column":2}},"47":{"start":{"line":121,"column":2},"end":{"line":130,"column":2}},"48":{"start":{"line":122,"column":4},"end":{"line":123,"column":4}},"49":{"start":{"line":123,"column":4},"end":{"line":124,"column":2}},"50":{"start":{"line":130,"column":2},"end":{"line":135,"column":0}},"51":{"start":{"line":131,"column":4},"end":{"line":132,"column":4}},"52":{"start":{"line":132,"column":4},"end":{"line":133,"column":2}}},"branchMap":{"1":{"line":35,"type":"if","locations":[{"start":{"line":35,"column":4},"end":{"line":35,"column":4}},{"start":{"line":35,"column":4},"end":{"line":35,"column":4}}]},"2":{"line":37,"type":"binary-expr","locations":[{"start":{"line":37,"column":17},"end":{"line":37,"column":25}},{"start":{"line":37,"column":29},"end":{"line":37,"column":67}}]},"3":{"line":40,"type":"if","locations":[{"start":{"line":40,"column":4},"end":{"line":40,"column":4}},{"start":{"line":40,"column":4},"end":{"line":40,"column":4}}]},"4":{"line":49,"type":"if","locations":[{"start":{"line":49,"column":4},"end":{"line":49,"column":4}},{"start":{"line":49,"column":4},"end":{"line":49,"column":4}}]},"5":{"line":64,"type":"binary-expr","locations":[{"start":{"line":64,"column":21},"end":{"line":64,"column":29}},{"start":{"line":65,"column":9},"end":{"line":65,"column":29}},{"start":{"line":66,"column":9},"end":{"line":66,"column":33}}]},"6":{"line":76,"type":"if","locations":[{"start":{"line":76,"column":6},"end":{"line":76,"column":6}},{"start":{"line":76,"column":6},"end":{"line":76,"column":6}}]},"7":{"line":83,"type":"if","locations":[{"start":{"line":83,"column":6},"end":{"line":83,"column":6}},{"start":{"line":83,"column":6},"end":{"line":83,"column":6}}]},"8":{"line":87,"type":"binary-expr","locations":[{"start":{"line":87,"column":6},"end":{"line":87,"column":14}},{"start":{"line":87,"column":18},"end":{"line":87,"column":28}}]},"9":{"line":90,"type":"cond-expr","locations":[{"start":{"line":91,"column":6},"end":{"line":93,"column":34}},{"start":{"line":94,"column":6},"end":{"line":94,"column":12}}]},"10":{"line":110,"type":"if","locations":[{"start":{"line":110,"column":6},"end":{"line":110,"column":6}},{"start":{"line":110,"column":6},"end":{"line":110,"column":6}}]},"11":{"line":111,"type":"if","locations":[{"start":{"line":111,"column":6},"end":{"line":111,"column":6}},{"start":{"line":111,"column":6},"end":{"line":111,"column":6}}]}}};
-}
-var __cov_cKsmZPwLKyot37W5iwQf0w = __coverage__['/Users/aries/Workspace/symbiote/app/client/scripts/110.tab.js'];
-__cov_cKsmZPwLKyot37W5iwQf0w.s['1']++;+function($){'use strict';__cov_cKsmZPwLKyot37W5iwQf0w.f['1']++;__cov_cKsmZPwLKyot37W5iwQf0w.s['2']++;var Tab=function(element){__cov_cKsmZPwLKyot37W5iwQf0w.f['2']++;__cov_cKsmZPwLKyot37W5iwQf0w.s['3']++;this.element=$(element);};__cov_cKsmZPwLKyot37W5iwQf0w.s['4']++;Tab.prototype.show=function(){__cov_cKsmZPwLKyot37W5iwQf0w.f['3']++;__cov_cKsmZPwLKyot37W5iwQf0w.s['5']++;var $this=this.element;__cov_cKsmZPwLKyot37W5iwQf0w.s['6']++;var $ul=$this.closest('ul:not(.dropdown-menu)');__cov_cKsmZPwLKyot37W5iwQf0w.s['7']++;var selector=$this.data('target');__cov_cKsmZPwLKyot37W5iwQf0w.s['8']++;if(!selector){__cov_cKsmZPwLKyot37W5iwQf0w.b['1'][0]++;__cov_cKsmZPwLKyot37W5iwQf0w.s['9']++;selector=$this.attr('href');__cov_cKsmZPwLKyot37W5iwQf0w.s['10']++;selector=(__cov_cKsmZPwLKyot37W5iwQf0w.b['2'][0]++,selector)&&(__cov_cKsmZPwLKyot37W5iwQf0w.b['2'][1]++,selector.replace(/.*(?=#[^\s]*$)/,''));}else{__cov_cKsmZPwLKyot37W5iwQf0w.b['1'][1]++;}__cov_cKsmZPwLKyot37W5iwQf0w.s['11']++;if($this.parent('li').hasClass('active')){__cov_cKsmZPwLKyot37W5iwQf0w.b['3'][0]++;__cov_cKsmZPwLKyot37W5iwQf0w.s['12']++;return;}else{__cov_cKsmZPwLKyot37W5iwQf0w.b['3'][1]++;}__cov_cKsmZPwLKyot37W5iwQf0w.s['13']++;var previous=$ul.find('.active:last a')[0];__cov_cKsmZPwLKyot37W5iwQf0w.s['14']++;var e=$.Event('show.bs.tab',{relatedTarget:previous});__cov_cKsmZPwLKyot37W5iwQf0w.s['15']++;$this.trigger(e);__cov_cKsmZPwLKyot37W5iwQf0w.s['16']++;if(e.isDefaultPrevented()){__cov_cKsmZPwLKyot37W5iwQf0w.b['4'][0]++;__cov_cKsmZPwLKyot37W5iwQf0w.s['17']++;return;}else{__cov_cKsmZPwLKyot37W5iwQf0w.b['4'][1]++;}__cov_cKsmZPwLKyot37W5iwQf0w.s['18']++;var $target=$(selector);__cov_cKsmZPwLKyot37W5iwQf0w.s['19']++;this.activate($this.parent('li'),$ul);__cov_cKsmZPwLKyot37W5iwQf0w.s['20']++;this.activate($target,$target.parent(),function(){__cov_cKsmZPwLKyot37W5iwQf0w.f['4']++;__cov_cKsmZPwLKyot37W5iwQf0w.s['21']++;$this.trigger({type:'shown.bs.tab',relatedTarget:previous});});};__cov_cKsmZPwLKyot37W5iwQf0w.s['22']++;Tab.prototype.activate=function(element,container,callback){__cov_cKsmZPwLKyot37W5iwQf0w.f['5']++;__cov_cKsmZPwLKyot37W5iwQf0w.s['23']++;var $active=container.find('> .active');__cov_cKsmZPwLKyot37W5iwQf0w.s['24']++;var transition=(__cov_cKsmZPwLKyot37W5iwQf0w.b['5'][0]++,callback)&&(__cov_cKsmZPwLKyot37W5iwQf0w.b['5'][1]++,$.support.transition)&&(__cov_cKsmZPwLKyot37W5iwQf0w.b['5'][2]++,$active.hasClass('fade'));function next(){__cov_cKsmZPwLKyot37W5iwQf0w.f['6']++;__cov_cKsmZPwLKyot37W5iwQf0w.s['26']++;$active.removeClass('active').find('> .dropdown-menu > .active').removeClass('active');__cov_cKsmZPwLKyot37W5iwQf0w.s['27']++;element.addClass('active');__cov_cKsmZPwLKyot37W5iwQf0w.s['28']++;if(transition){__cov_cKsmZPwLKyot37W5iwQf0w.b['6'][0]++;__cov_cKsmZPwLKyot37W5iwQf0w.s['29']++;element[0].offsetWidth;__cov_cKsmZPwLKyot37W5iwQf0w.s['30']++;element.addClass('in');}else{__cov_cKsmZPwLKyot37W5iwQf0w.b['6'][1]++;__cov_cKsmZPwLKyot37W5iwQf0w.s['31']++;element.removeClass('fade');}__cov_cKsmZPwLKyot37W5iwQf0w.s['32']++;if(element.parent('.dropdown-menu')){__cov_cKsmZPwLKyot37W5iwQf0w.b['7'][0]++;__cov_cKsmZPwLKyot37W5iwQf0w.s['33']++;element.closest('li.dropdown').addClass('active');}else{__cov_cKsmZPwLKyot37W5iwQf0w.b['7'][1]++;}__cov_cKsmZPwLKyot37W5iwQf0w.s['34']++;(__cov_cKsmZPwLKyot37W5iwQf0w.b['8'][0]++,callback)&&(__cov_cKsmZPwLKyot37W5iwQf0w.b['8'][1]++,callback());}__cov_cKsmZPwLKyot37W5iwQf0w.s['35']++;transition?(__cov_cKsmZPwLKyot37W5iwQf0w.b['9'][0]++,$active.one($.support.transition.end,next).emulateTransitionEnd(150)):(__cov_cKsmZPwLKyot37W5iwQf0w.b['9'][1]++,next());__cov_cKsmZPwLKyot37W5iwQf0w.s['36']++;$active.removeClass('in');};__cov_cKsmZPwLKyot37W5iwQf0w.s['37']++;var old=$.fn.tab;__cov_cKsmZPwLKyot37W5iwQf0w.s['38']++;$.fn.tab=function(option){__cov_cKsmZPwLKyot37W5iwQf0w.f['7']++;__cov_cKsmZPwLKyot37W5iwQf0w.s['39']++;return this.each(function(){__cov_cKsmZPwLKyot37W5iwQf0w.f['8']++;__cov_cKsmZPwLKyot37W5iwQf0w.s['40']++;var $this=$(this);__cov_cKsmZPwLKyot37W5iwQf0w.s['41']++;var data=$this.data('bs.tab');__cov_cKsmZPwLKyot37W5iwQf0w.s['42']++;if(!data){__cov_cKsmZPwLKyot37W5iwQf0w.b['10'][0]++;__cov_cKsmZPwLKyot37W5iwQf0w.s['43']++;$this.data('bs.tab',data=new Tab(this));}else{__cov_cKsmZPwLKyot37W5iwQf0w.b['10'][1]++;}__cov_cKsmZPwLKyot37W5iwQf0w.s['44']++;if(typeof option=='string'){__cov_cKsmZPwLKyot37W5iwQf0w.b['11'][0]++;__cov_cKsmZPwLKyot37W5iwQf0w.s['45']++;data[option]();}else{__cov_cKsmZPwLKyot37W5iwQf0w.b['11'][1]++;}});};__cov_cKsmZPwLKyot37W5iwQf0w.s['46']++;$.fn.tab.Constructor=Tab;__cov_cKsmZPwLKyot37W5iwQf0w.s['47']++;$.fn.tab.noConflict=function(){__cov_cKsmZPwLKyot37W5iwQf0w.f['9']++;__cov_cKsmZPwLKyot37W5iwQf0w.s['48']++;$.fn.tab=old;__cov_cKsmZPwLKyot37W5iwQf0w.s['49']++;return this;};__cov_cKsmZPwLKyot37W5iwQf0w.s['50']++;$(document).on('click.bs.tab.data-api','[data-toggle="tab"], [data-toggle="pill"]',function(e){__cov_cKsmZPwLKyot37W5iwQf0w.f['10']++;__cov_cKsmZPwLKyot37W5iwQf0w.s['51']++;e.preventDefault();__cov_cKsmZPwLKyot37W5iwQf0w.s['52']++;$(this).tab('show');});}(jQuery);
+/* ========================================================================
+ * Bootstrap: tab.js v3.0.3
+ * http://getbootstrap.com/javascript/#tabs
+ * ========================================================================
+ * Copyright 2013 Twitter, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * ======================================================================== */
+
+
++function ($) { "use strict";
+
+  // TAB CLASS DEFINITION
+  // ====================
+
+  var Tab = function (element) {
+    this.element = $(element)
+  }
+
+  Tab.prototype.show = function () {
+    var $this    = this.element
+    var $ul      = $this.closest('ul:not(.dropdown-menu)')
+    var selector = $this.data('target')
+
+    if (!selector) {
+      selector = $this.attr('href')
+      selector = selector && selector.replace(/.*(?=#[^\s]*$)/, '') //strip for ie7
+    }
+
+    if ($this.parent('li').hasClass('active')) return
+
+    var previous = $ul.find('.active:last a')[0]
+    var e        = $.Event('show.bs.tab', {
+      relatedTarget: previous
+    })
+
+    $this.trigger(e)
+
+    if (e.isDefaultPrevented()) return
+
+    var $target = $(selector)
+
+    this.activate($this.parent('li'), $ul)
+    this.activate($target, $target.parent(), function () {
+      $this.trigger({
+        type: 'shown.bs.tab'
+      , relatedTarget: previous
+      })
+    })
+  }
+
+  Tab.prototype.activate = function (element, container, callback) {
+    var $active    = container.find('> .active')
+    var transition = callback
+      && $.support.transition
+      && $active.hasClass('fade')
+
+    function next() {
+      $active
+        .removeClass('active')
+        .find('> .dropdown-menu > .active')
+        .removeClass('active')
+
+      element.addClass('active')
+
+      if (transition) {
+        element[0].offsetWidth // reflow for transition
+        element.addClass('in')
+      } else {
+        element.removeClass('fade')
+      }
+
+      if (element.parent('.dropdown-menu')) {
+        element.closest('li.dropdown').addClass('active')
+      }
+
+      callback && callback()
+    }
+
+    transition ?
+      $active
+        .one($.support.transition.end, next)
+        .emulateTransitionEnd(150) :
+      next()
+
+    $active.removeClass('in')
+  }
+
+
+  // TAB PLUGIN DEFINITION
+  // =====================
+
+  var old = $.fn.tab
+
+  $.fn.tab = function ( option ) {
+    return this.each(function () {
+      var $this = $(this)
+      var data  = $this.data('bs.tab')
+
+      if (!data) $this.data('bs.tab', (data = new Tab(this)))
+      if (typeof option == 'string') data[option]()
+    })
+  }
+
+  $.fn.tab.Constructor = Tab
+
+
+  // TAB NO CONFLICT
+  // ===============
+
+  $.fn.tab.noConflict = function () {
+    $.fn.tab = old
+    return this
+  }
+
+
+  // TAB DATA-API
+  // ============
+
+  $(document).on('click.bs.tab.data-api', '[data-toggle="tab"], [data-toggle="pill"]', function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+  })
+
+}(jQuery);
