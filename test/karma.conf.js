@@ -66,10 +66,7 @@ module.exports = function(config){
             'app/server/fixture.js',
             'app/server/fixture.coffee',
             'app/packages/**/*',
-            'app/client/scripts/*',
-            'app/client/scripts/**/*',
-            '**/scripts/*',
-            '**/scripts/**/*'
+            'app/client/scripts/*'
         ],
 
         preprocessors : {
