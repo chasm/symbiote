@@ -18,3 +18,4 @@ iron-router
 spin
 accounts-github
 roles
+router
