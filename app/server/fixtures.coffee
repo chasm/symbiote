@@ -105,7 +105,7 @@ if Chitchats.find().count() == 0
       userId: som._id
       author: som.profile.login
       submittedAt: now - 5 * 3600 * 1000
-      body: 'What's up?'
+      body: 'Whats up?'
 
 if Discussions.find().count() == 0
   now = new Date().getTime()

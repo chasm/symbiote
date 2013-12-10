@@ -24,3 +24,7 @@ Template.discussion.rendered = (e) ->
     helper: 'clone',
     revert: 'invalid',
     appendTo: 'body'
+    drag: (e,ui) -> 
+      id=$(e.target).data('id')
+      discussion=Chitchats.findOne(id)
+      discussion.userId == Meteor.userId()
