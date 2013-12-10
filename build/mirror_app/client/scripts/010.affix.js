@@ -1,6 +1,126 @@
-if (typeof __coverage__ === 'undefined') { __coverage__ = {}; }
-if (!__coverage__['/Users/aries/Workspace/symbiote/app/client/scripts/010.affix.js']) {
-   __coverage__['/Users/aries/Workspace/symbiote/app/client/scripts/010.affix.js'] = {"path":"/Users/aries/Workspace/symbiote/app/client/scripts/010.affix.js","s":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0,"13":0,"14":0,"15":0,"16":0,"17":0,"18":0,"19":0,"20":0,"21":0,"22":0,"23":0,"24":0,"25":0,"26":0,"27":0,"28":0,"29":0,"30":0,"31":0,"32":0,"33":0,"34":0,"35":0,"36":0,"37":0,"38":0,"39":0,"40":0,"41":0,"42":0,"43":0,"44":0,"45":0,"46":0,"47":0,"48":0,"49":0,"50":0,"51":0,"52":0,"53":0,"54":0,"55":0,"56":0,"57":0,"58":0,"59":0,"60":0},"b":{"1":[0,0],"2":[0,0],"3":[0,0],"4":[0,0],"5":[0,0],"6":[0,0],"7":[0,0],"8":[0,0],"9":[0,0],"10":[0,0],"11":[0,0],"12":[0,0],"13":[0,0],"14":[0,0],"15":[0,0],"16":[0,0],"17":[0,0],"18":[0,0],"19":[0,0],"20":[0,0],"21":[0,0]},"f":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0},"fnMap":{"1":{"name":"(anonymous_1)","line":21,"loc":{"start":{"line":21,"column":1},"end":{"line":21,"column":14}}},"2":{"name":"(anonymous_2)","line":26,"loc":{"start":{"line":26,"column":14},"end":{"line":26,"column":42}}},"3":{"name":"(anonymous_3)","line":45,"loc":{"start":{"line":45,"column":47},"end":{"line":45,"column":59}}},"4":{"name":"(anonymous_4)","line":49,"loc":{"start":{"line":49,"column":34},"end":{"line":49,"column":46}}},"5":{"name":"(anonymous_5)","line":86,"loc":{"start":{"line":86,"column":15},"end":{"line":86,"column":33}}},"6":{"name":"(anonymous_6)","line":87,"loc":{"start":{"line":87,"column":21},"end":{"line":87,"column":33}}},"7":{"name":"(anonymous_7)","line":103,"loc":{"start":{"line":103,"column":26},"end":{"line":103,"column":38}}},"8":{"name":"(anonymous_8)","line":112,"loc":{"start":{"line":112,"column":23},"end":{"line":112,"column":35}}},"9":{"name":"(anonymous_9)","line":113,"loc":{"start":{"line":113,"column":33},"end":{"line":113,"column":45}}}},"statementMap":{"1":{"start":{"line":21,"column":0},"end":{"line":126,"column":10}},"2":{"start":{"line":26,"column":2},"end":{"line":39,"column":2}},"3":{"start":{"line":27,"column":4},"end":{"line":28,"column":4}},"4":{"start":{"line":28,"column":4},"end":{"line":32,"column":4}},"5":{"start":{"line":32,"column":4},"end":{"line":33,"column":4}},"6":{"start":{"line":33,"column":4},"end":{"line":36,"column":4}},"7":{"start":{"line":36,"column":4},"end":{"line":37,"column":2}},"8":{"start":{"line":39,"column":2},"end":{"line":41,"column":2}},"9":{"start":{"line":41,"column":2},"end":{"line":45,"column":2}},"10":{"start":{"line":45,"column":2},"end":{"line":49,"column":2}},"11":{"start":{"line":46,"column":4},"end":{"line":47,"column":2}},"12":{"start":{"line":49,"column":2},"end":{"line":84,"column":2}},"13":{"start":{"line":50,"column":4},"end":{"line":50,"column":45}},"14":{"start":{"line":50,"column":39},"end":{"line":50,"column":45}},"15":{"start":{"line":52,"column":4},"end":{"line":53,"column":4}},"16":{"start":{"line":53,"column":4},"end":{"line":54,"column":4}},"17":{"start":{"line":54,"column":4},"end":{"line":55,"column":4}},"18":{"start":{"line":55,"column":4},"end":{"line":56,"column":4}},"19":{"start":{"line":56,"column":4},"end":{"line":57,"column":4}},"20":{"start":{"line":57,"column":4},"end":{"line":59,"column":4}},"21":{"start":{"line":59,"column":4},"end":{"line":60,"column":4}},"22":{"start":{"line":59,"column":43},"end":{"line":60,"column":4}},"23":{"start":{"line":60,"column":4},"end":{"line":61,"column":4}},"24":{"start":{"line":60,"column":43},"end":{"line":61,"column":4}},"25":{"start":{"line":61,"column":4},"end":{"line":63,"column":4}},"26":{"start":{"line":61,"column":43},"end":{"line":63,"column":4}},"27":{"start":{"line":63,"column":4},"end":{"line":67,"column":4}},"28":{"start":{"line":67,"column":4},"end":{"line":67,"column":38}},"29":{"start":{"line":67,"column":32},"end":{"line":67,"column":38}},"30":{"start":{"line":68,"column":4},"end":{"line":70,"column":4}},"31":{"start":{"line":68,"column":20},"end":{"line":70,"column":4}},"32":{"start":{"line":70,"column":4},"end":{"line":71,"column":4}},"33":{"start":{"line":71,"column":4},"end":{"line":73,"column":4}},"34":{"start":{"line":73,"column":4},"end":{"line":75,"column":4}},"35":{"start":{"line":75,"column":4},"end":{"line":77,"column":5}},"36":{"start":{"line":76,"column":6},"end":{"line":77,"column":4}},"37":{"start":{"line":84,"column":2},"end":{"line":86,"column":2}},"38":{"start":{"line":86,"column":2},"end":{"line":97,"column":2}},"39":{"start":{"line":87,"column":4},"end":{"line":95,"column":2}},"40":{"start":{"line":88,"column":6},"end":{"line":89,"column":6}},"41":{"start":{"line":89,"column":6},"end":{"line":90,"column":6}},"42":{"start":{"line":90,"column":6},"end":{"line":92,"column":6}},"43":{"start":{"line":92,"column":6},"end":{"line":93,"column":6}},"44":{"start":{"line":92,"column":17},"end":{"line":93,"column":6}},"45":{"start":{"line":93,"column":6},"end":{"line":94,"column":4}},"46":{"start":{"line":93,"column":37},"end":{"line":94,"column":4}},"47":{"start":{"line":97,"column":2},"end":{"line":103,"column":2}},"48":{"start":{"line":103,"column":2},"end":{"line":112,"column":2}},"49":{"start":{"line":104,"column":4},"end":{"line":105,"column":4}},"50":{"start":{"line":105,"column":4},"end":{"line":106,"column":2}},"51":{"start":{"line":112,"column":2},"end":{"line":126,"column":0}},"52":{"start":{"line":113,"column":4},"end":{"line":124,"column":2}},"53":{"start":{"line":114,"column":6},"end":{"line":115,"column":6}},"54":{"start":{"line":115,"column":6},"end":{"line":117,"column":6}},"55":{"start":{"line":117,"column":6},"end":{"line":119,"column":6}},"56":{"start":{"line":119,"column":6},"end":{"line":120,"column":6}},"57":{"start":{"line":119,"column":29},"end":{"line":120,"column":6}},"58":{"start":{"line":120,"column":6},"end":{"line":122,"column":6}},"59":{"start":{"line":120,"column":29},"end":{"line":122,"column":6}},"60":{"start":{"line":122,"column":6},"end":{"line":123,"column":4}}},"branchMap":{"1":{"line":50,"type":"if","locations":[{"start":{"line":50,"column":4},"end":{"line":50,"column":4}},{"start":{"line":50,"column":4},"end":{"line":50,"column":4}}]},"2":{"line":59,"type":"if","locations":[{"start":{"line":59,"column":4},"end":{"line":59,"column":4}},{"start":{"line":59,"column":4},"end":{"line":59,"column":4}}]},"3":{"line":60,"type":"if","locations":[{"start":{"line":60,"column":4},"end":{"line":60,"column":4}},{"start":{"line":60,"column":4},"end":{"line":60,"column":4}}]},"4":{"line":61,"type":"if","locations":[{"start":{"line":61,"column":4},"end":{"line":61,"column":4}},{"start":{"line":61,"column":4},"end":{"line":61,"column":4}}]},"5":{"line":63,"type":"cond-expr","locations":[{"start":{"line":63,"column":83},"end":{"line":63,"column":88}},{"start":{"line":64,"column":16},"end":{"line":65,"column":80}}]},"6":{"line":63,"type":"binary-expr","locations":[{"start":{"line":63,"column":16},"end":{"line":63,"column":36}},{"start":{"line":63,"column":41},"end":{"line":63,"column":79}}]},"7":{"line":64,"type":"cond-expr","locations":[{"start":{"line":64,"column":113},"end":{"line":64,"column":121}},{"start":{"line":65,"column":16},"end":{"line":65,"column":80}}]},"8":{"line":64,"type":"binary-expr","locations":[{"start":{"line":64,"column":16},"end":{"line":64,"column":36}},{"start":{"line":64,"column":41},"end":{"line":64,"column":109}}]},"9":{"line":65,"type":"cond-expr","locations":[{"start":{"line":65,"column":67},"end":{"line":65,"column":72}},{"start":{"line":65,"column":75},"end":{"line":65,"column":80}}]},"10":{"line":65,"type":"binary-expr","locations":[{"start":{"line":65,"column":16},"end":{"line":65,"column":36}},{"start":{"line":65,"column":41},"end":{"line":65,"column":63}}]},"11":{"line":67,"type":"if","locations":[{"start":{"line":67,"column":4},"end":{"line":67,"column":4}},{"start":{"line":67,"column":4},"end":{"line":67,"column":4}}]},"12":{"line":68,"type":"if","locations":[{"start":{"line":68,"column":4},"end":{"line":68,"column":4}},{"start":{"line":68,"column":4},"end":{"line":68,"column":4}}]},"13":{"line":71,"type":"cond-expr","locations":[{"start":{"line":71,"column":39},"end":{"line":71,"column":63}},{"start":{"line":71,"column":66},"end":{"line":71,"column":70}}]},"14":{"line":73,"type":"cond-expr","locations":[{"start":{"line":73,"column":71},"end":{"line":73,"column":82}},{"start":{"line":73,"column":85},"end":{"line":73,"column":87}}]},"15":{"line":75,"type":"if","locations":[{"start":{"line":75,"column":4},"end":{"line":75,"column":4}},{"start":{"line":75,"column":4},"end":{"line":75,"column":4}}]},"16":{"line":90,"type":"binary-expr","locations":[{"start":{"line":90,"column":20},"end":{"line":90,"column":45}},{"start":{"line":90,"column":49},"end":{"line":90,"column":55}}]},"17":{"line":92,"type":"if","locations":[{"start":{"line":92,"column":6},"end":{"line":92,"column":6}},{"start":{"line":92,"column":6},"end":{"line":92,"column":6}}]},"18":{"line":93,"type":"if","locations":[{"start":{"line":93,"column":6},"end":{"line":93,"column":6}},{"start":{"line":93,"column":6},"end":{"line":93,"column":6}}]},"19":{"line":117,"type":"binary-expr","locations":[{"start":{"line":117,"column":20},"end":{"line":117,"column":31}},{"start":{"line":117,"column":35},"end":{"line":117,"column":37}}]},"20":{"line":119,"type":"if","locations":[{"start":{"line":119,"column":6},"end":{"line":119,"column":6}},{"start":{"line":119,"column":6},"end":{"line":119,"column":6}}]},"21":{"line":120,"type":"if","locations":[{"start":{"line":120,"column":6},"end":{"line":120,"column":6}},{"start":{"line":120,"column":6},"end":{"line":120,"column":6}}]}}};
-}
-var __cov_tY3OG9ZwG_np5PFAIsP4nw = __coverage__['/Users/aries/Workspace/symbiote/app/client/scripts/010.affix.js'];
-__cov_tY3OG9ZwG_np5PFAIsP4nw.s['1']++;+function($){'use strict';__cov_tY3OG9ZwG_np5PFAIsP4nw.f['1']++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['2']++;var Affix=function(element,options){__cov_tY3OG9ZwG_np5PFAIsP4nw.f['2']++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['3']++;this.options=$.extend({},Affix.DEFAULTS,options);__cov_tY3OG9ZwG_np5PFAIsP4nw.s['4']++;this.$window=$(window).on('scroll.bs.affix.data-api',$.proxy(this.checkPosition,this)).on('click.bs.affix.data-api',$.proxy(this.checkPositionWithEventLoop,this));__cov_tY3OG9ZwG_np5PFAIsP4nw.s['5']++;this.$element=$(element);__cov_tY3OG9ZwG_np5PFAIsP4nw.s['6']++;this.affixed=this.unpin=null;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['7']++;this.checkPosition();};__cov_tY3OG9ZwG_np5PFAIsP4nw.s['8']++;Affix.RESET='affix affix-top affix-bottom';__cov_tY3OG9ZwG_np5PFAIsP4nw.s['9']++;Affix.DEFAULTS={offset:0};__cov_tY3OG9ZwG_np5PFAIsP4nw.s['10']++;Affix.prototype.checkPositionWithEventLoop=function(){__cov_tY3OG9ZwG_np5PFAIsP4nw.f['3']++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['11']++;setTimeout($.proxy(this.checkPosition,this),1);};__cov_tY3OG9ZwG_np5PFAIsP4nw.s['12']++;Affix.prototype.checkPosition=function(){__cov_tY3OG9ZwG_np5PFAIsP4nw.f['4']++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['13']++;if(!this.$element.is(':visible')){__cov_tY3OG9ZwG_np5PFAIsP4nw.b['1'][0]++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['14']++;return;}else{__cov_tY3OG9ZwG_np5PFAIsP4nw.b['1'][1]++;}__cov_tY3OG9ZwG_np5PFAIsP4nw.s['15']++;var scrollHeight=$(document).height();__cov_tY3OG9ZwG_np5PFAIsP4nw.s['16']++;var scrollTop=this.$window.scrollTop();__cov_tY3OG9ZwG_np5PFAIsP4nw.s['17']++;var position=this.$element.offset();__cov_tY3OG9ZwG_np5PFAIsP4nw.s['18']++;var offset=this.options.offset;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['19']++;var offsetTop=offset.top;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['20']++;var offsetBottom=offset.bottom;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['21']++;if(typeof offset!='object'){__cov_tY3OG9ZwG_np5PFAIsP4nw.b['2'][0]++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['22']++;offsetBottom=offsetTop=offset;}else{__cov_tY3OG9ZwG_np5PFAIsP4nw.b['2'][1]++;}__cov_tY3OG9ZwG_np5PFAIsP4nw.s['23']++;if(typeof offsetTop=='function'){__cov_tY3OG9ZwG_np5PFAIsP4nw.b['3'][0]++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['24']++;offsetTop=offset.top();}else{__cov_tY3OG9ZwG_np5PFAIsP4nw.b['3'][1]++;}__cov_tY3OG9ZwG_np5PFAIsP4nw.s['25']++;if(typeof offsetBottom=='function'){__cov_tY3OG9ZwG_np5PFAIsP4nw.b['4'][0]++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['26']++;offsetBottom=offset.bottom();}else{__cov_tY3OG9ZwG_np5PFAIsP4nw.b['4'][1]++;}__cov_tY3OG9ZwG_np5PFAIsP4nw.s['27']++;var affix=(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['6'][0]++,this.unpin!=null)&&(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['6'][1]++,scrollTop+this.unpin<=position.top)?(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['5'][0]++,false):(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['5'][1]++,(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['8'][0]++,offsetBottom!=null)&&(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['8'][1]++,position.top+this.$element.height()>=scrollHeight-offsetBottom)?(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['7'][0]++,'bottom'):(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['7'][1]++,(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['10'][0]++,offsetTop!=null)&&(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['10'][1]++,scrollTop<=offsetTop)?(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['9'][0]++,'top'):(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['9'][1]++,false)));__cov_tY3OG9ZwG_np5PFAIsP4nw.s['28']++;if(this.affixed===affix){__cov_tY3OG9ZwG_np5PFAIsP4nw.b['11'][0]++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['29']++;return;}else{__cov_tY3OG9ZwG_np5PFAIsP4nw.b['11'][1]++;}__cov_tY3OG9ZwG_np5PFAIsP4nw.s['30']++;if(this.unpin){__cov_tY3OG9ZwG_np5PFAIsP4nw.b['12'][0]++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['31']++;this.$element.css('top','');}else{__cov_tY3OG9ZwG_np5PFAIsP4nw.b['12'][1]++;}__cov_tY3OG9ZwG_np5PFAIsP4nw.s['32']++;this.affixed=affix;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['33']++;this.unpin=affix=='bottom'?(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['13'][0]++,position.top-scrollTop):(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['13'][1]++,null);__cov_tY3OG9ZwG_np5PFAIsP4nw.s['34']++;this.$element.removeClass(Affix.RESET).addClass('affix'+(affix?(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['14'][0]++,'-'+affix):(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['14'][1]++,'')));__cov_tY3OG9ZwG_np5PFAIsP4nw.s['35']++;if(affix=='bottom'){__cov_tY3OG9ZwG_np5PFAIsP4nw.b['15'][0]++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['36']++;this.$element.offset({top:document.body.offsetHeight-offsetBottom-this.$element.height()});}else{__cov_tY3OG9ZwG_np5PFAIsP4nw.b['15'][1]++;}};__cov_tY3OG9ZwG_np5PFAIsP4nw.s['37']++;var old=$.fn.affix;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['38']++;$.fn.affix=function(option){__cov_tY3OG9ZwG_np5PFAIsP4nw.f['5']++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['39']++;return this.each(function(){__cov_tY3OG9ZwG_np5PFAIsP4nw.f['6']++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['40']++;var $this=$(this);__cov_tY3OG9ZwG_np5PFAIsP4nw.s['41']++;var data=$this.data('bs.affix');__cov_tY3OG9ZwG_np5PFAIsP4nw.s['42']++;var options=(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['16'][0]++,typeof option=='object')&&(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['16'][1]++,option);__cov_tY3OG9ZwG_np5PFAIsP4nw.s['43']++;if(!data){__cov_tY3OG9ZwG_np5PFAIsP4nw.b['17'][0]++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['44']++;$this.data('bs.affix',data=new Affix(this,options));}else{__cov_tY3OG9ZwG_np5PFAIsP4nw.b['17'][1]++;}__cov_tY3OG9ZwG_np5PFAIsP4nw.s['45']++;if(typeof option=='string'){__cov_tY3OG9ZwG_np5PFAIsP4nw.b['18'][0]++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['46']++;data[option]();}else{__cov_tY3OG9ZwG_np5PFAIsP4nw.b['18'][1]++;}});};__cov_tY3OG9ZwG_np5PFAIsP4nw.s['47']++;$.fn.affix.Constructor=Affix;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['48']++;$.fn.affix.noConflict=function(){__cov_tY3OG9ZwG_np5PFAIsP4nw.f['7']++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['49']++;$.fn.affix=old;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['50']++;return this;};__cov_tY3OG9ZwG_np5PFAIsP4nw.s['51']++;$(window).on('load',function(){__cov_tY3OG9ZwG_np5PFAIsP4nw.f['8']++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['52']++;$('[data-spy="affix"]').each(function(){__cov_tY3OG9ZwG_np5PFAIsP4nw.f['9']++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['53']++;var $spy=$(this);__cov_tY3OG9ZwG_np5PFAIsP4nw.s['54']++;var data=$spy.data();__cov_tY3OG9ZwG_np5PFAIsP4nw.s['55']++;data.offset=(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['19'][0]++,data.offset)||(__cov_tY3OG9ZwG_np5PFAIsP4nw.b['19'][1]++,{});__cov_tY3OG9ZwG_np5PFAIsP4nw.s['56']++;if(data.offsetBottom){__cov_tY3OG9ZwG_np5PFAIsP4nw.b['20'][0]++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['57']++;data.offset.bottom=data.offsetBottom;}else{__cov_tY3OG9ZwG_np5PFAIsP4nw.b['20'][1]++;}__cov_tY3OG9ZwG_np5PFAIsP4nw.s['58']++;if(data.offsetTop){__cov_tY3OG9ZwG_np5PFAIsP4nw.b['21'][0]++;__cov_tY3OG9ZwG_np5PFAIsP4nw.s['59']++;data.offset.top=data.offsetTop;}else{__cov_tY3OG9ZwG_np5PFAIsP4nw.b['21'][1]++;}__cov_tY3OG9ZwG_np5PFAIsP4nw.s['60']++;$spy.affix(data);});});}(jQuery);
+/* ========================================================================
+ * Bootstrap: affix.js v3.0.3
+ * http://getbootstrap.com/javascript/#affix
+ * ========================================================================
+ * Copyright 2013 Twitter, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * ======================================================================== */
+
+
++function ($) { "use strict";
+
+  // AFFIX CLASS DEFINITION
+  // ======================
+
+  var Affix = function (element, options) {
+    this.options = $.extend({}, Affix.DEFAULTS, options)
+    this.$window = $(window)
+      .on('scroll.bs.affix.data-api', $.proxy(this.checkPosition, this))
+      .on('click.bs.affix.data-api',  $.proxy(this.checkPositionWithEventLoop, this))
+
+    this.$element = $(element)
+    this.affixed  =
+    this.unpin    = null
+
+    this.checkPosition()
+  }
+
+  Affix.RESET = 'affix affix-top affix-bottom'
+
+  Affix.DEFAULTS = {
+    offset: 0
+  }
+
+  Affix.prototype.checkPositionWithEventLoop = function () {
+    setTimeout($.proxy(this.checkPosition, this), 1)
+  }
+
+  Affix.prototype.checkPosition = function () {
+    if (!this.$element.is(':visible')) return
+
+    var scrollHeight = $(document).height()
+    var scrollTop    = this.$window.scrollTop()
+    var position     = this.$element.offset()
+    var offset       = this.options.offset
+    var offsetTop    = offset.top
+    var offsetBottom = offset.bottom
+
+    if (typeof offset != 'object')         offsetBottom = offsetTop = offset
+    if (typeof offsetTop == 'function')    offsetTop    = offset.top()
+    if (typeof offsetBottom == 'function') offsetBottom = offset.bottom()
+
+    var affix = this.unpin   != null && (scrollTop + this.unpin <= position.top) ? false :
+                offsetBottom != null && (position.top + this.$element.height() >= scrollHeight - offsetBottom) ? 'bottom' :
+                offsetTop    != null && (scrollTop <= offsetTop) ? 'top' : false
+
+    if (this.affixed === affix) return
+    if (this.unpin) this.$element.css('top', '')
+
+    this.affixed = affix
+    this.unpin   = affix == 'bottom' ? position.top - scrollTop : null
+
+    this.$element.removeClass(Affix.RESET).addClass('affix' + (affix ? '-' + affix : ''))
+
+    if (affix == 'bottom') {
+      this.$element.offset({ top: document.body.offsetHeight - offsetBottom - this.$element.height() })
+    }
+  }
+
+
+  // AFFIX PLUGIN DEFINITION
+  // =======================
+
+  var old = $.fn.affix
+
+  $.fn.affix = function (option) {
+    return this.each(function () {
+      var $this   = $(this)
+      var data    = $this.data('bs.affix')
+      var options = typeof option == 'object' && option
+
+      if (!data) $this.data('bs.affix', (data = new Affix(this, options)))
+      if (typeof option == 'string') data[option]()
+    })
+  }
+
+  $.fn.affix.Constructor = Affix
+
+
+  // AFFIX NO CONFLICT
+  // =================
+
+  $.fn.affix.noConflict = function () {
+    $.fn.affix = old
+    return this
+  }
+
+
+  // AFFIX DATA-API
+  // ==============
+
+  $(window).on('load', function () {
+    $('[data-spy="affix"]').each(function () {
+      var $spy = $(this)
+      var data = $spy.data()
+
+      data.offset = data.offset || {}
+
+      if (data.offsetBottom) data.offset.bottom = data.offsetBottom
+      if (data.offsetTop)    data.offset.top    = data.offsetTop
+
+      $spy.affix(data)
+    })
+  })
+
+}(jQuery);

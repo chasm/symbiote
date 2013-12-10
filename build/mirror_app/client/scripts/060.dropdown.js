@@ -1,6 +1,154 @@
-if (typeof __coverage__ === 'undefined') { __coverage__ = {}; }
-if (!__coverage__['/Users/aries/Workspace/symbiote/app/client/scripts/060.dropdown.js']) {
-   __coverage__['/Users/aries/Workspace/symbiote/app/client/scripts/060.dropdown.js'] = {"path":"/Users/aries/Workspace/symbiote/app/client/scripts/060.dropdown.js","s":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0,"13":0,"14":0,"15":0,"16":0,"17":0,"18":0,"19":0,"20":0,"21":0,"22":0,"23":0,"24":0,"25":0,"26":0,"27":0,"28":0,"29":0,"30":0,"31":0,"32":0,"33":0,"34":0,"35":0,"36":0,"37":0,"38":0,"39":0,"40":0,"41":0,"42":0,"43":0,"44":0,"45":0,"46":0,"47":1,"48":0,"49":0,"50":0,"51":0,"52":0,"53":0,"54":0,"55":0,"56":0,"57":1,"58":0,"59":0,"60":0,"61":0,"62":0,"63":0,"64":0,"65":0,"66":0,"67":0,"68":0,"69":0,"70":0,"71":0,"72":0,"73":0,"74":0,"75":0,"76":0,"77":0,"78":0},"b":{"1":[0,0],"2":[0,0],"3":[0,0],"4":[0,0],"5":[0,0],"6":[0,0],"7":[0,0],"8":[0,0],"9":[0,0,0],"10":[0,0],"11":[0,0],"12":[0,0],"13":[0,0],"14":[0,0],"15":[0,0],"16":[0,0],"17":[0,0],"18":[0,0],"19":[0,0],"20":[0,0,0],"21":[0,0],"22":[0,0],"23":[0,0],"24":[0,0],"25":[0,0]},"f":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0},"fnMap":{"1":{"name":"(anonymous_1)","line":21,"loc":{"start":{"line":21,"column":1},"end":{"line":21,"column":14}}},"2":{"name":"(anonymous_2)","line":28,"loc":{"start":{"line":28,"column":17},"end":{"line":28,"column":36}}},"3":{"name":"(anonymous_3)","line":32,"loc":{"start":{"line":32,"column":30},"end":{"line":32,"column":43}}},"4":{"name":"(anonymous_4)","line":62,"loc":{"start":{"line":62,"column":31},"end":{"line":62,"column":44}}},"5":{"name":"clearMenus","line":93,"loc":{"start":{"line":93,"column":2},"end":{"line":93,"column":24}}},"6":{"name":"(anonymous_6)","line":95,"loc":{"start":{"line":95,"column":19},"end":{"line":95,"column":32}}},"7":{"name":"getParent","line":104,"loc":{"start":{"line":104,"column":2},"end":{"line":104,"column":28}}},"8":{"name":"(anonymous_8)","line":123,"loc":{"start":{"line":123,"column":18},"end":{"line":123,"column":36}}},"9":{"name":"(anonymous_9)","line":124,"loc":{"start":{"line":124,"column":21},"end":{"line":124,"column":33}}},"10":{"name":"(anonymous_10)","line":139,"loc":{"start":{"line":139,"column":29},"end":{"line":139,"column":41}}},"11":{"name":"(anonymous_11)","line":150,"loc":{"start":{"line":150,"column":56},"end":{"line":150,"column":69}}}},"statementMap":{"1":{"start":{"line":21,"column":0},"end":{"line":154,"column":10}},"2":{"start":{"line":26,"column":2},"end":{"line":27,"column":2}},"3":{"start":{"line":27,"column":2},"end":{"line":28,"column":2}},"4":{"start":{"line":28,"column":2},"end":{"line":32,"column":2}},"5":{"start":{"line":29,"column":4},"end":{"line":30,"column":2}},"6":{"start":{"line":32,"column":2},"end":{"line":62,"column":2}},"7":{"start":{"line":33,"column":4},"end":{"line":35,"column":4}},"8":{"start":{"line":35,"column":4},"end":{"line":35,"column":48}},"9":{"start":{"line":35,"column":42},"end":{"line":35,"column":48}},"10":{"start":{"line":37,"column":4},"end":{"line":38,"column":4}},"11":{"start":{"line":38,"column":4},"end":{"line":40,"column":4}},"12":{"start":{"line":40,"column":4},"end":{"line":42,"column":4}},"13":{"start":{"line":42,"column":4},"end":{"line":57,"column":5}},"14":{"start":{"line":43,"column":6},"end":{"line":46,"column":7}},"15":{"start":{"line":45,"column":8},"end":{"line":46,"column":6}},"16":{"start":{"line":48,"column":6},"end":{"line":50,"column":6}},"17":{"start":{"line":50,"column":6},"end":{"line":50,"column":40}},"18":{"start":{"line":50,"column":34},"end":{"line":50,"column":40}},"19":{"start":{"line":52,"column":6},"end":{"line":56,"column":6}},"20":{"start":{"line":56,"column":6},"end":{"line":57,"column":4}},"21":{"start":{"line":59,"column":4},"end":{"line":60,"column":2}},"22":{"start":{"line":62,"column":2},"end":{"line":93,"column":2}},"23":{"start":{"line":63,"column":4},"end":{"line":63,"column":45}},"24":{"start":{"line":63,"column":39},"end":{"line":63,"column":45}},"25":{"start":{"line":65,"column":4},"end":{"line":67,"column":4}},"26":{"start":{"line":67,"column":4},"end":{"line":68,"column":4}},"27":{"start":{"line":68,"column":4},"end":{"line":70,"column":4}},"28":{"start":{"line":70,"column":4},"end":{"line":70,"column":48}},"29":{"start":{"line":70,"column":42},"end":{"line":70,"column":48}},"30":{"start":{"line":72,"column":4},"end":{"line":73,"column":4}},"31":{"start":{"line":73,"column":4},"end":{"line":75,"column":4}},"32":{"start":{"line":75,"column":4},"end":{"line":78,"column":5}},"33":{"start":{"line":76,"column":6},"end":{"line":77,"column":6}},"34":{"start":{"line":76,"column":25},"end":{"line":77,"column":6}},"35":{"start":{"line":77,"column":6},"end":{"line":78,"column":4}},"36":{"start":{"line":80,"column":4},"end":{"line":82,"column":4}},"37":{"start":{"line":82,"column":4},"end":{"line":82,"column":30}},"38":{"start":{"line":82,"column":24},"end":{"line":82,"column":30}},"39":{"start":{"line":84,"column":4},"end":{"line":86,"column":4}},"40":{"start":{"line":86,"column":4},"end":{"line":87,"column":4}},"41":{"start":{"line":86,"column":54},"end":{"line":87,"column":4}},"42":{"start":{"line":87,"column":4},"end":{"line":88,"column":4}},"43":{"start":{"line":87,"column":54},"end":{"line":88,"column":4}},"44":{"start":{"line":88,"column":4},"end":{"line":90,"column":4}},"45":{"start":{"line":88,"column":54},"end":{"line":90,"column":4}},"46":{"start":{"line":90,"column":4},"end":{"line":91,"column":2}},"47":{"start":{"line":93,"column":2},"end":{"line":102,"column":3}},"48":{"start":{"line":94,"column":4},"end":{"line":95,"column":4}},"49":{"start":{"line":95,"column":4},"end":{"line":102,"column":2}},"50":{"start":{"line":96,"column":6},"end":{"line":97,"column":6}},"51":{"start":{"line":97,"column":6},"end":{"line":97,"column":43}},"52":{"start":{"line":97,"column":37},"end":{"line":97,"column":43}},"53":{"start":{"line":98,"column":6},"end":{"line":99,"column":6}},"54":{"start":{"line":99,"column":6},"end":{"line":99,"column":40}},"55":{"start":{"line":99,"column":34},"end":{"line":99,"column":40}},"56":{"start":{"line":100,"column":6},"end":{"line":101,"column":4}},"57":{"start":{"line":104,"column":2},"end":{"line":115,"column":3}},"58":{"start":{"line":105,"column":4},"end":{"line":107,"column":4}},"59":{"start":{"line":107,"column":4},"end":{"line":110,"column":5}},"60":{"start":{"line":108,"column":6},"end":{"line":109,"column":6}},"61":{"start":{"line":109,"column":6},"end":{"line":110,"column":4}},"62":{"start":{"line":112,"column":4},"end":{"line":114,"column":4}},"63":{"start":{"line":114,"column":4},"end":{"line":115,"column":2}},"64":{"start":{"line":121,"column":2},"end":{"line":123,"column":2}},"65":{"start":{"line":123,"column":2},"end":{"line":133,"column":2}},"66":{"start":{"line":124,"column":4},"end":{"line":131,"column":2}},"67":{"start":{"line":125,"column":6},"end":{"line":126,"column":6}},"68":{"start":{"line":126,"column":6},"end":{"line":128,"column":6}},"69":{"start":{"line":128,"column":6},"end":{"line":129,"column":6}},"70":{"start":{"line":128,"column":17},"end":{"line":129,"column":6}},"71":{"start":{"line":129,"column":6},"end":{"line":130,"column":4}},"72":{"start":{"line":129,"column":37},"end":{"line":130,"column":4}},"73":{"start":{"line":133,"column":2},"end":{"line":139,"column":2}},"74":{"start":{"line":139,"column":2},"end":{"line":148,"column":2}},"75":{"start":{"line":140,"column":4},"end":{"line":141,"column":4}},"76":{"start":{"line":141,"column":4},"end":{"line":142,"column":2}},"77":{"start":{"line":148,"column":2},"end":{"line":154,"column":0}},"78":{"start":{"line":150,"column":71},"end":{"line":150,"column":91}}},"branchMap":{"1":{"line":35,"type":"if","locations":[{"start":{"line":35,"column":4},"end":{"line":35,"column":4}},{"start":{"line":35,"column":4},"end":{"line":35,"column":4}}]},"2":{"line":42,"type":"if","locations":[{"start":{"line":42,"column":4},"end":{"line":42,"column":4}},{"start":{"line":42,"column":4},"end":{"line":42,"column":4}}]},"3":{"line":43,"type":"if","locations":[{"start":{"line":43,"column":6},"end":{"line":43,"column":6}},{"start":{"line":43,"column":6},"end":{"line":43,"column":6}}]},"4":{"line":43,"type":"binary-expr","locations":[{"start":{"line":43,"column":10},"end":{"line":43,"column":52}},{"start":{"line":43,"column":56},"end":{"line":43,"column":94}}]},"5":{"line":50,"type":"if","locations":[{"start":{"line":50,"column":6},"end":{"line":50,"column":6}},{"start":{"line":50,"column":6},"end":{"line":50,"column":6}}]},"6":{"line":63,"type":"if","locations":[{"start":{"line":63,"column":4},"end":{"line":63,"column":4}},{"start":{"line":63,"column":4},"end":{"line":63,"column":4}}]},"7":{"line":70,"type":"if","locations":[{"start":{"line":70,"column":4},"end":{"line":70,"column":4}},{"start":{"line":70,"column":4},"end":{"line":70,"column":4}}]},"8":{"line":75,"type":"if","locations":[{"start":{"line":75,"column":4},"end":{"line":75,"column":4}},{"start":{"line":75,"column":4},"end":{"line":75,"column":4}}]},"9":{"line":75,"type":"binary-expr","locations":[{"start":{"line":75,"column":8},"end":{"line":75,"column":17}},{"start":{"line":75,"column":22},"end":{"line":75,"column":30}},{"start":{"line":75,"column":34},"end":{"line":75,"column":49}}]},"10":{"line":76,"type":"if","locations":[{"start":{"line":76,"column":6},"end":{"line":76,"column":6}},{"start":{"line":76,"column":6},"end":{"line":76,"column":6}}]},"11":{"line":82,"type":"if","locations":[{"start":{"line":82,"column":4},"end":{"line":82,"column":4}},{"start":{"line":82,"column":4},"end":{"line":82,"column":4}}]},"12":{"line":86,"type":"if","locations":[{"start":{"line":86,"column":4},"end":{"line":86,"column":4}},{"start":{"line":86,"column":4},"end":{"line":86,"column":4}}]},"13":{"line":86,"type":"binary-expr","locations":[{"start":{"line":86,"column":8},"end":{"line":86,"column":23}},{"start":{"line":86,"column":27},"end":{"line":86,"column":36}}]},"14":{"line":87,"type":"if","locations":[{"start":{"line":87,"column":4},"end":{"line":87,"column":4}},{"start":{"line":87,"column":4},"end":{"line":87,"column":4}}]},"15":{"line":87,"type":"binary-expr","locations":[{"start":{"line":87,"column":8},"end":{"line":87,"column":23}},{"start":{"line":87,"column":27},"end":{"line":87,"column":52}}]},"16":{"line":88,"type":"if","locations":[{"start":{"line":88,"column":4},"end":{"line":88,"column":4}},{"start":{"line":88,"column":4},"end":{"line":88,"column":4}}]},"17":{"line":97,"type":"if","locations":[{"start":{"line":97,"column":6},"end":{"line":97,"column":6}},{"start":{"line":97,"column":6},"end":{"line":97,"column":6}}]},"18":{"line":99,"type":"if","locations":[{"start":{"line":99,"column":6},"end":{"line":99,"column":6}},{"start":{"line":99,"column":6},"end":{"line":99,"column":6}}]},"19":{"line":107,"type":"if","locations":[{"start":{"line":107,"column":4},"end":{"line":107,"column":4}},{"start":{"line":107,"column":4},"end":{"line":107,"column":4}}]},"20":{"line":109,"type":"binary-expr","locations":[{"start":{"line":109,"column":17},"end":{"line":109,"column":25}},{"start":{"line":109,"column":29},"end":{"line":109,"column":47}},{"start":{"line":109,"column":51},"end":{"line":109,"column":89}}]},"21":{"line":112,"type":"binary-expr","locations":[{"start":{"line":112,"column":18},"end":{"line":112,"column":26}},{"start":{"line":112,"column":30},"end":{"line":112,"column":41}}]},"22":{"line":114,"type":"cond-expr","locations":[{"start":{"line":114,"column":39},"end":{"line":114,"column":46}},{"start":{"line":114,"column":49},"end":{"line":114,"column":63}}]},"23":{"line":114,"type":"binary-expr","locations":[{"start":{"line":114,"column":11},"end":{"line":114,"column":18}},{"start":{"line":114,"column":22},"end":{"line":114,"column":36}}]},"24":{"line":128,"type":"if","locations":[{"start":{"line":128,"column":6},"end":{"line":128,"column":6}},{"start":{"line":128,"column":6},"end":{"line":128,"column":6}}]},"25":{"line":129,"type":"if","locations":[{"start":{"line":129,"column":6},"end":{"line":129,"column":6}},{"start":{"line":129,"column":6},"end":{"line":129,"column":6}}]}}};
-}
-var __cov_T2uARDN8vlnuL8k$42lzIw = __coverage__['/Users/aries/Workspace/symbiote/app/client/scripts/060.dropdown.js'];
-__cov_T2uARDN8vlnuL8k$42lzIw.s['1']++;+function($){'use strict';__cov_T2uARDN8vlnuL8k$42lzIw.f['1']++;__cov_T2uARDN8vlnuL8k$42lzIw.s['2']++;var backdrop='.dropdown-backdrop';__cov_T2uARDN8vlnuL8k$42lzIw.s['3']++;var toggle='[data-toggle=dropdown]';__cov_T2uARDN8vlnuL8k$42lzIw.s['4']++;var Dropdown=function(element){__cov_T2uARDN8vlnuL8k$42lzIw.f['2']++;__cov_T2uARDN8vlnuL8k$42lzIw.s['5']++;$(element).on('click.bs.dropdown',this.toggle);};__cov_T2uARDN8vlnuL8k$42lzIw.s['6']++;Dropdown.prototype.toggle=function(e){__cov_T2uARDN8vlnuL8k$42lzIw.f['3']++;__cov_T2uARDN8vlnuL8k$42lzIw.s['7']++;var $this=$(this);__cov_T2uARDN8vlnuL8k$42lzIw.s['8']++;if($this.is('.disabled, :disabled')){__cov_T2uARDN8vlnuL8k$42lzIw.b['1'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['9']++;return;}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['1'][1]++;}__cov_T2uARDN8vlnuL8k$42lzIw.s['10']++;var $parent=getParent($this);__cov_T2uARDN8vlnuL8k$42lzIw.s['11']++;var isActive=$parent.hasClass('open');__cov_T2uARDN8vlnuL8k$42lzIw.s['12']++;clearMenus();__cov_T2uARDN8vlnuL8k$42lzIw.s['13']++;if(!isActive){__cov_T2uARDN8vlnuL8k$42lzIw.b['2'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['14']++;if((__cov_T2uARDN8vlnuL8k$42lzIw.b['4'][0]++,'ontouchstart'in document.documentElement)&&(__cov_T2uARDN8vlnuL8k$42lzIw.b['4'][1]++,!$parent.closest('.navbar-nav').length)){__cov_T2uARDN8vlnuL8k$42lzIw.b['3'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['15']++;$('<div class="dropdown-backdrop"/>').insertAfter($(this)).on('click',clearMenus);}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['3'][1]++;}__cov_T2uARDN8vlnuL8k$42lzIw.s['16']++;$parent.trigger(e=$.Event('show.bs.dropdown'));__cov_T2uARDN8vlnuL8k$42lzIw.s['17']++;if(e.isDefaultPrevented()){__cov_T2uARDN8vlnuL8k$42lzIw.b['5'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['18']++;return;}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['5'][1]++;}__cov_T2uARDN8vlnuL8k$42lzIw.s['19']++;$parent.toggleClass('open').trigger('shown.bs.dropdown');__cov_T2uARDN8vlnuL8k$42lzIw.s['20']++;$this.focus();}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['2'][1]++;}__cov_T2uARDN8vlnuL8k$42lzIw.s['21']++;return false;};__cov_T2uARDN8vlnuL8k$42lzIw.s['22']++;Dropdown.prototype.keydown=function(e){__cov_T2uARDN8vlnuL8k$42lzIw.f['4']++;__cov_T2uARDN8vlnuL8k$42lzIw.s['23']++;if(!/(38|40|27)/.test(e.keyCode)){__cov_T2uARDN8vlnuL8k$42lzIw.b['6'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['24']++;return;}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['6'][1]++;}__cov_T2uARDN8vlnuL8k$42lzIw.s['25']++;var $this=$(this);__cov_T2uARDN8vlnuL8k$42lzIw.s['26']++;e.preventDefault();__cov_T2uARDN8vlnuL8k$42lzIw.s['27']++;e.stopPropagation();__cov_T2uARDN8vlnuL8k$42lzIw.s['28']++;if($this.is('.disabled, :disabled')){__cov_T2uARDN8vlnuL8k$42lzIw.b['7'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['29']++;return;}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['7'][1]++;}__cov_T2uARDN8vlnuL8k$42lzIw.s['30']++;var $parent=getParent($this);__cov_T2uARDN8vlnuL8k$42lzIw.s['31']++;var isActive=$parent.hasClass('open');__cov_T2uARDN8vlnuL8k$42lzIw.s['32']++;if((__cov_T2uARDN8vlnuL8k$42lzIw.b['9'][0]++,!isActive)||(__cov_T2uARDN8vlnuL8k$42lzIw.b['9'][1]++,isActive)&&(__cov_T2uARDN8vlnuL8k$42lzIw.b['9'][2]++,e.keyCode==27)){__cov_T2uARDN8vlnuL8k$42lzIw.b['8'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['33']++;if(e.which==27){__cov_T2uARDN8vlnuL8k$42lzIw.b['10'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['34']++;$parent.find(toggle).focus();}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['10'][1]++;}__cov_T2uARDN8vlnuL8k$42lzIw.s['35']++;return $this.click();}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['8'][1]++;}__cov_T2uARDN8vlnuL8k$42lzIw.s['36']++;var $items=$('[role=menu] li:not(.divider):visible a',$parent);__cov_T2uARDN8vlnuL8k$42lzIw.s['37']++;if(!$items.length){__cov_T2uARDN8vlnuL8k$42lzIw.b['11'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['38']++;return;}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['11'][1]++;}__cov_T2uARDN8vlnuL8k$42lzIw.s['39']++;var index=$items.index($items.filter(':focus'));__cov_T2uARDN8vlnuL8k$42lzIw.s['40']++;if((__cov_T2uARDN8vlnuL8k$42lzIw.b['13'][0]++,e.keyCode==38)&&(__cov_T2uARDN8vlnuL8k$42lzIw.b['13'][1]++,index>0)){__cov_T2uARDN8vlnuL8k$42lzIw.b['12'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['41']++;index--;}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['12'][1]++;}__cov_T2uARDN8vlnuL8k$42lzIw.s['42']++;if((__cov_T2uARDN8vlnuL8k$42lzIw.b['15'][0]++,e.keyCode==40)&&(__cov_T2uARDN8vlnuL8k$42lzIw.b['15'][1]++,index<$items.length-1)){__cov_T2uARDN8vlnuL8k$42lzIw.b['14'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['43']++;index++;}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['14'][1]++;}__cov_T2uARDN8vlnuL8k$42lzIw.s['44']++;if(!~index){__cov_T2uARDN8vlnuL8k$42lzIw.b['16'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['45']++;index=0;}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['16'][1]++;}__cov_T2uARDN8vlnuL8k$42lzIw.s['46']++;$items.eq(index).focus();};function clearMenus(){__cov_T2uARDN8vlnuL8k$42lzIw.f['5']++;__cov_T2uARDN8vlnuL8k$42lzIw.s['48']++;$(backdrop).remove();__cov_T2uARDN8vlnuL8k$42lzIw.s['49']++;$(toggle).each(function(e){__cov_T2uARDN8vlnuL8k$42lzIw.f['6']++;__cov_T2uARDN8vlnuL8k$42lzIw.s['50']++;var $parent=getParent($(this));__cov_T2uARDN8vlnuL8k$42lzIw.s['51']++;if(!$parent.hasClass('open')){__cov_T2uARDN8vlnuL8k$42lzIw.b['17'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['52']++;return;}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['17'][1]++;}__cov_T2uARDN8vlnuL8k$42lzIw.s['53']++;$parent.trigger(e=$.Event('hide.bs.dropdown'));__cov_T2uARDN8vlnuL8k$42lzIw.s['54']++;if(e.isDefaultPrevented()){__cov_T2uARDN8vlnuL8k$42lzIw.b['18'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['55']++;return;}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['18'][1]++;}__cov_T2uARDN8vlnuL8k$42lzIw.s['56']++;$parent.removeClass('open').trigger('hidden.bs.dropdown');});}function getParent($this){__cov_T2uARDN8vlnuL8k$42lzIw.f['7']++;__cov_T2uARDN8vlnuL8k$42lzIw.s['58']++;var selector=$this.attr('data-target');__cov_T2uARDN8vlnuL8k$42lzIw.s['59']++;if(!selector){__cov_T2uARDN8vlnuL8k$42lzIw.b['19'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['60']++;selector=$this.attr('href');__cov_T2uARDN8vlnuL8k$42lzIw.s['61']++;selector=(__cov_T2uARDN8vlnuL8k$42lzIw.b['20'][0]++,selector)&&(__cov_T2uARDN8vlnuL8k$42lzIw.b['20'][1]++,/#/.test(selector))&&(__cov_T2uARDN8vlnuL8k$42lzIw.b['20'][2]++,selector.replace(/.*(?=#[^\s]*$)/,''));}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['19'][1]++;}__cov_T2uARDN8vlnuL8k$42lzIw.s['62']++;var $parent=(__cov_T2uARDN8vlnuL8k$42lzIw.b['21'][0]++,selector)&&(__cov_T2uARDN8vlnuL8k$42lzIw.b['21'][1]++,$(selector));__cov_T2uARDN8vlnuL8k$42lzIw.s['63']++;return(__cov_T2uARDN8vlnuL8k$42lzIw.b['23'][0]++,$parent)&&(__cov_T2uARDN8vlnuL8k$42lzIw.b['23'][1]++,$parent.length)?(__cov_T2uARDN8vlnuL8k$42lzIw.b['22'][0]++,$parent):(__cov_T2uARDN8vlnuL8k$42lzIw.b['22'][1]++,$this.parent());}__cov_T2uARDN8vlnuL8k$42lzIw.s['64']++;var old=$.fn.dropdown;__cov_T2uARDN8vlnuL8k$42lzIw.s['65']++;$.fn.dropdown=function(option){__cov_T2uARDN8vlnuL8k$42lzIw.f['8']++;__cov_T2uARDN8vlnuL8k$42lzIw.s['66']++;return this.each(function(){__cov_T2uARDN8vlnuL8k$42lzIw.f['9']++;__cov_T2uARDN8vlnuL8k$42lzIw.s['67']++;var $this=$(this);__cov_T2uARDN8vlnuL8k$42lzIw.s['68']++;var data=$this.data('bs.dropdown');__cov_T2uARDN8vlnuL8k$42lzIw.s['69']++;if(!data){__cov_T2uARDN8vlnuL8k$42lzIw.b['24'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['70']++;$this.data('bs.dropdown',data=new Dropdown(this));}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['24'][1]++;}__cov_T2uARDN8vlnuL8k$42lzIw.s['71']++;if(typeof option=='string'){__cov_T2uARDN8vlnuL8k$42lzIw.b['25'][0]++;__cov_T2uARDN8vlnuL8k$42lzIw.s['72']++;data[option].call($this);}else{__cov_T2uARDN8vlnuL8k$42lzIw.b['25'][1]++;}});};__cov_T2uARDN8vlnuL8k$42lzIw.s['73']++;$.fn.dropdown.Constructor=Dropdown;__cov_T2uARDN8vlnuL8k$42lzIw.s['74']++;$.fn.dropdown.noConflict=function(){__cov_T2uARDN8vlnuL8k$42lzIw.f['10']++;__cov_T2uARDN8vlnuL8k$42lzIw.s['75']++;$.fn.dropdown=old;__cov_T2uARDN8vlnuL8k$42lzIw.s['76']++;return this;};__cov_T2uARDN8vlnuL8k$42lzIw.s['77']++;$(document).on('click.bs.dropdown.data-api',clearMenus).on('click.bs.dropdown.data-api','.dropdown form',function(e){__cov_T2uARDN8vlnuL8k$42lzIw.f['11']++;__cov_T2uARDN8vlnuL8k$42lzIw.s['78']++;e.stopPropagation();}).on('click.bs.dropdown.data-api',toggle,Dropdown.prototype.toggle).on('keydown.bs.dropdown.data-api',toggle+', [role=menu]',Dropdown.prototype.keydown);}(jQuery);
+/* ========================================================================
+ * Bootstrap: dropdown.js v3.0.3
+ * http://getbootstrap.com/javascript/#dropdowns
+ * ========================================================================
+ * Copyright 2013 Twitter, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * ======================================================================== */
+
+
++function ($) { "use strict";
+
+  // DROPDOWN CLASS DEFINITION
+  // =========================
+
+  var backdrop = '.dropdown-backdrop'
+  var toggle   = '[data-toggle=dropdown]'
+  var Dropdown = function (element) {
+    $(element).on('click.bs.dropdown', this.toggle)
+  }
+
+  Dropdown.prototype.toggle = function (e) {
+    var $this = $(this)
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    clearMenus()
+
+    if (!isActive) {
+      if ('ontouchstart' in document.documentElement && !$parent.closest('.navbar-nav').length) {
+        // if mobile we use a backdrop because click events don't delegate
+        $('<div class="dropdown-backdrop"/>').insertAfter($(this)).on('click', clearMenus)
+      }
+
+      $parent.trigger(e = $.Event('show.bs.dropdown'))
+
+      if (e.isDefaultPrevented()) return
+
+      $parent
+        .toggleClass('open')
+        .trigger('shown.bs.dropdown')
+
+      $this.focus()
+    }
+
+    return false
+  }
+
+  Dropdown.prototype.keydown = function (e) {
+    if (!/(38|40|27)/.test(e.keyCode)) return
+
+    var $this = $(this)
+
+    e.preventDefault()
+    e.stopPropagation()
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    if (!isActive || (isActive && e.keyCode == 27)) {
+      if (e.which == 27) $parent.find(toggle).focus()
+      return $this.click()
+    }
+
+    var $items = $('[role=menu] li:not(.divider):visible a', $parent)
+
+    if (!$items.length) return
+
+    var index = $items.index($items.filter(':focus'))
+
+    if (e.keyCode == 38 && index > 0)                 index--                        // up
+    if (e.keyCode == 40 && index < $items.length - 1) index++                        // down
+    if (!~index)                                      index=0
+
+    $items.eq(index).focus()
+  }
+
+  function clearMenus() {
+    $(backdrop).remove()
+    $(toggle).each(function (e) {
+      var $parent = getParent($(this))
+      if (!$parent.hasClass('open')) return
+      $parent.trigger(e = $.Event('hide.bs.dropdown'))
+      if (e.isDefaultPrevented()) return
+      $parent.removeClass('open').trigger('hidden.bs.dropdown')
+    })
+  }
+
+  function getParent($this) {
+    var selector = $this.attr('data-target')
+
+    if (!selector) {
+      selector = $this.attr('href')
+      selector = selector && /#/.test(selector) && selector.replace(/.*(?=#[^\s]*$)/, '') //strip for ie7
+    }
+
+    var $parent = selector && $(selector)
+
+    return $parent && $parent.length ? $parent : $this.parent()
+  }
+
+
+  // DROPDOWN PLUGIN DEFINITION
+  // ==========================
+
+  var old = $.fn.dropdown
+
+  $.fn.dropdown = function (option) {
+    return this.each(function () {
+      var $this = $(this)
+      var data  = $this.data('bs.dropdown')
+
+      if (!data) $this.data('bs.dropdown', (data = new Dropdown(this)))
+      if (typeof option == 'string') data[option].call($this)
+    })
+  }
+
+  $.fn.dropdown.Constructor = Dropdown
+
+
+  // DROPDOWN NO CONFLICT
+  // ====================
+
+  $.fn.dropdown.noConflict = function () {
+    $.fn.dropdown = old
+    return this
+  }
+
+
+  // APPLY TO STANDARD DROPDOWN ELEMENTS
+  // ===================================
+
+  $(document)
+    .on('click.bs.dropdown.data-api', clearMenus)
+    .on('click.bs.dropdown.data-api', '.dropdown form', function (e) { e.stopPropagation() })
+    .on('click.bs.dropdown.data-api'  , toggle, Dropdown.prototype.toggle)
+    .on('keydown.bs.dropdown.data-api', toggle + ', [role=menu]' , Dropdown.prototype.keydown)
+
+}(jQuery);
