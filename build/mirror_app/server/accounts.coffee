@@ -69,4 +69,4 @@ Accounts.onCreateUser (options, user) ->
 
     user
   else
-    throw Error
+    throw Error("No user!")
