@@ -1,0 +1,58 @@
+<template name="header"> 
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">DaVinci</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav side-nav">
+        <li{{#if dashboard}} class="active"{{/if}}>
+          <a href="{{pathFor 'dashboard'}}"><i class="fa fa-bar-chart-o"></i> Dashboard</a>
+        </li>
+        <li {{#if chattr}}class="active"{{/if}}>
+          <a href="{{pathFor 'chattrIndex'}}">
+            <i class="fa fa-comments-o"></i>
+            Chattr
+            <span class="pull-right">
+              <span class="badge class-resources">2</span>
+              <span class="badge class-discussion">5</span>
+              <span class="badge class-chitchat">17</span>
+            </span>
+          </a>
+        </li>
+        <li {{#if quizilla}}class="active"{{/if}}>
+          <a href="{{pathFor 'quizillaIndex'}}"><i class="fa fa-question"></i> Quizilla</a>
+        </li>
+        <li {{#if modelr}}class="active"{{/if}}>
+          <a href="{{pathFor 'modelrIndex'}}"><i class="fa fa-sitemap"></i> Modelr</a>
+        </li>
+        <li {{#if stylr}}class="active"{{/if}}>
+          <a href="{{pathFor 'stylrIndex'}}"><i class="fa fa-pencil"></i> Stylr</a>
+        </li>
+        <li {{#if codr}}class="active"{{/if}}>
+          <a href="{{pathFor 'codrIndex'}}"><i class="fa fa-wrench"></i> Codr</a>
+        </li>
+        <li {{#if profilr}}class="active"{{/if}}>
+          <a href="{{pathFor 'profilrIndex'}}"><i class="fa fa-user"></i> Profilr</a>
+        </li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right navbar-user">
+        {{> cohortsControl}}
+        {{#if currentUser}}
+          {{> logOut}}
+        {{else}}
+          {{> logIn}}
+        {{/if}}
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </nav>
+</template>

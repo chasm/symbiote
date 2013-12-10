@@ -1,0 +1,1 @@
+# Symbiote errors collection
