@@ -2,21 +2,20 @@ Template.chitchats.helpers
   chitchats: ->
     Chitchats.find()
 
-Template.chitchats.rendered ->
+Template.chitchats.events 
+
+  'dragstop .chatbox': (e) ->
+    e.preventDefault()
+    $('.chatbox').droppable()
+    console.log("dropped in chitchat")
+
+
   
-  $('.draggable').draggable();
-  'dragover .chat' : (e) ->
-    e.preventDefault()
-    console.log('dragover')
-    $(e.currentTarget).addClass('dragover')
+Template.chitchats.rendered = (e) ->   
+  $('.chatbox').droppable
+    drop: (e) ->
+      console.log("Dropped! chitchatbox", $(e.target))
+  
 
-
-  'dragleave .chat' : (e) ->
-    $(e.currentTarget).removeClass('dragover')
-    console.log('dragleave')
-
-  'drop .chat' : (e, ui) ->
-    e.preventDefault()
-    console.log('drop!')
 
       

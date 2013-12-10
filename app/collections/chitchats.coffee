@@ -11,7 +11,7 @@ Meteor.methods
     chitchat = _.extend(_.pick(chitchatAttributes, 'body'), {
       userId: user._id,
       author: user.profile.login,
-      submitted: new Date().getTime()
+      submittedAt: new Date().getTime()
     })
     # create the chitchat, save the id
     chitchat._id = Chitchats.insert chitchat

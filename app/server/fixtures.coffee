@@ -98,14 +98,14 @@ if Chitchats.find().count() == 0
       userId: tom._id
       author: tom.profile.login
       submittedAt: now - 5 * 3600 * 1000
-      body: 'Interesting project Sacha, can I get involved?'
+      body: 'Morning'
 
    if som?
     Chitchats.insert
       userId: som._id
       author: som.profile.login
       submittedAt: now - 5 * 3600 * 1000
-      body: 'Sure, you can!'
+      body: 'What's up?'
 
 if Discussions.find().count() == 0
   now = new Date().getTime()

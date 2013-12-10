@@ -18,8 +18,6 @@ iron-router
 spin
 accounts-github
 roles
-<<<<<<< HEAD
-=======
-bootstrap
 jquery-ui
->>>>>>> working on drag
+HTML5-History-API
+router

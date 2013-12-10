@@ -18,3 +18,9 @@ Template.discussion.events
     e.preventDefault()
     id = $(e.target).data('id')
     Discussions.remove id if confirm("Delete this chat?")
+
+Template.discussion.rendered = (e) ->
+  $('.draggable').draggable
+    helper: 'clone',
+    revert: 'invalid',
+    appendTo: 'body'

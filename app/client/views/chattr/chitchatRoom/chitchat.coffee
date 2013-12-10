@@ -1,8 +1,9 @@
 Template.chitchat.helpers
-  submittedText: -> new Date( @.submittedAt ).toString()
+  submittedAt: -> new Date( @.submittedAt ).toString()
   ownChitchat: -> @.userId == Meteor.userId()
 
 Template.chitchat.events
+
   'click .edit': (e) ->
     e.preventDefault()
     id = $(e.target).data('id')
@@ -18,3 +19,9 @@ Template.chitchat.events
     e.preventDefault()
     id = $(e.target).data('id')
     Chitchats.remove id if confirm("Delete this chat?")
+
+Template.chitchat.rendered = (e) ->
+  $('.draggable').draggable
+    helper: 'clone',
+    revert: 'invalid',
+    appendTo: 'body'

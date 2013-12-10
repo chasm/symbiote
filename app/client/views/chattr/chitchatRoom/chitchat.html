@@ -1,6 +1,6 @@
 <template name="chitchat">
-  <li >
-    <div class="draggable">
+  <li class="draggable" data-id={{_id}}>
+    <div>
       <strong>{{author}} says:</strong>
       {{#if ownChitchat}}
         <span class="pull-right">

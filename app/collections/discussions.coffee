@@ -11,7 +11,7 @@ Meteor.methods
     discussion = _.extend(_.pick(discussionAttributes, 'body'), {
       userId: user._id,
       author: user.profile.login,
-      submitted: new Date().getTime()
+      submittedAt: new Date().getTime()
     })
     # create the discussion, save the id
     discussion._id = Discussions.insert discussion
