@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"file":"/client/views/includes/cohorts_control.coffee.js","sources":["cohorts_control.coffee"],"names":[],"mappings":";AAAA,CAAS,MAAT,CAAQ,MAAe;CACrB,EAAS,IAAT,EAAS;CAAW,EAAR,IAAO,EAAP;CAAZ,EAAS;CAAT,CACA,CAAe,UAAf;CAA0B,EAAR,IAAO,IAAP;CADlB,EACe;CAFjB;A","sourcesContent":["Template.cohortsControl.helpers\n  cohorts: -> Session.get('cohorts')\n  currentCohort: -> Session.get('currentCohort')"]}

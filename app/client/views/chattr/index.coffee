@@ -1,4 +1,18 @@
-Template.chattrIndex.rendered = (e) ->   
+Template.chattrIndex.helpers
+  resourceRoom: ->
+    title: 'Resources'
+    slug: 'resources'
+    messages: []
+  discussionRoom: ->
+    title: 'Discussion'
+    slug: 'discussion'
+    messages: Discussions.find()
+  chitchatRoom: ->
+    title: 'Chit-chat'
+    slug: 'chitchat'
+    messages: Chitchats.find()
+
+Template.chattrIndex.rendered = (e) ->
   $('.chatbox').droppable
     accept: ".chat li"
     drop: (e, ui) ->
@@ -17,4 +31,3 @@ Template.chattrIndex.rendered = (e) ->
 
 
 
-      

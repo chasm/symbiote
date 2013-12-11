@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html##HTML_ATTRIBUTES##>
+<head>
+  <link rel="stylesheet" href="##ROOT_URL_PATH_PREFIX##/packages/code-prettify/prettify.css?8e1c89c9a44e0e837551bdfe250a672d6c21f2b7">
+  <link rel="stylesheet" href="##ROOT_URL_PATH_PREFIX##/packages/code-prettify/styles/sunburst.css?6e5f0b09fa0c0028992792e66d2c3062e7ff6586">
+  <link rel="stylesheet" href="##ROOT_URL_PATH_PREFIX##/packages/accounts-github/github_login_button.css?4b6d8c2193c93dddce919620b231b5a94e6a9faf">
+  <link rel="stylesheet" href="##ROOT_URL_PATH_PREFIX##/client/stylesheets/style.less.css?155545c19b250e79367c44cf86a8ce21f30ce0ea">
+
+
+##RUNTIME_CONFIG##
+
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/underscore.js?13ab483e8a3c795d9991577e65e811cd0b827997"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/meteor.js?643bfdbf5382aa1986ff0dd3e6474d4a7e247bab"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/standard-app-packages.js?be7072e6abfda638502b63fa0f809c85c8c2b8ed"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/insecure.js?3dc9d4a2dad55999b5b15a447d57f3d5fb66b290"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/random.js?b763d607358d5f39ec7165df804da4c9509ba4e5"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/jquery.js?1a9d113f1f0c905a877e6eb3d97b07a871baa416"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/domutils.js?c5d4d4c5629038d1bb6deea7acd7a0512d406fe3"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/liverange.js?b3097d72d458e645fd4f0021c8ff5189abe8d98a"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/universal-events.js?5bfa39513d2caa4af4f829d7f4907afae3601adf"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/ordered-dict.js?bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/deps.js?5ac28feec1f3e0539889ecde598dd9d01e408b41"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/json.js?e22856eae714c681199eabc5c0710b904b125554"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/ejson.js?6b96257c000bbb949b0e65eaacceeecba5bf84c6"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/geojson-utils.js?81b79d5cf96d00b4b7a28987debcffb665c17526"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/minimongo.js?65b4ee0e4ba2a5ca4254709cb52b6f667a848d7b"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/spark.js?3a050592ceb34d6c585c70f1df11e353610be0ab"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/preserve-inputs.js?7b3b8bf0669f1f110126607ecd8488f719344f09"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/coffeescript.js?969f68786bbc68e6cad299e74922a53af3d1404b"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/less.js?7d1bf981a25a449d6270558bcfc983313c40cd26"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/jquery-history.js?959c67ee9194b97b17d893cbef7a29cb3464647c"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/http.js?4aec4250e79a92408f1c5e234a52434907239586"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/d3.js?9961945f4971ab1b110ad9b3f9bd0f23cdc15944"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/code-prettify.js?d829280767f3b3518702ce834b619b15881f631a"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/logging.js?e3df5be1604658260b4000a031f1a7b969cb6133"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/check.js?a54cf3c7b3abe9208d064621eb80a3ecaf2f4add"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/reload.js?8495281f1e90298939d33611f64cb97609664269"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/livedata.js?dab0057c9e7c90bcd874be39d89b9cd54637979b"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/application-configuration.js?d035285fe78d9556cb9a784c73aa129d88bc386b"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/mongo-livedata.js?2f66d8591aa3225badaf5a98bfba28287bff3a3d"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/reactive-dict.js?22667928acc72f619ce81e7ac1e35def1ba9e0ae"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/handlebars.js?c2b75d49875b4cfcc7544447aad117fd81fccf3b"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/templating.js?5944cd5e16b26fbf83959a0fe92d7754029a624d"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/iron-router.js?d35adf06eb9e0006ec4ec19002220c72598b05ec"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/spin.js?d0669fea4b1c6d6326ca78a2e4a715488fe5bb5b"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/localstorage.js?66e8e87ffe90dfe2f3f14d2f450a49ac7a33c5b8"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/service-configuration.js?65f9d7f8c45ecc9be55a58180bf579558581a9dc"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/accounts-base.js?9b3a1d13cc49c66883244e6606e87287d370918f"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/accounts-oauth.js?ec0c258ab408470b49f37de355c3b9b55fb044e4"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/oauth.js?4aa2e1486aef79113cba73c17e8cad0e9f8d929d"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/oauth2.js?228fb002a50ab94e17475623f0e34cd441d691ba"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/github.js?82beb1c17f04292f0007ab4c0a271e837424d8e6"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/accounts-github.js?cd8e0996c426b07b63ab8131432e3cbb1bf3f6b9"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/roles.js?38e4b3138a53ab0521fbcc653c8f078cecccd200"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/startup.js?b11a8ec83d1e6394d47a024ab7175979e4e5834e"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/page-js-ie-support.js?eb95012d4c01dbb6793ca50e92b2b25f095e950c"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/router.js?fa973c1aa0f406a9ff2a8ef2745961b9500ea0f5"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/istanbul-middleware-port.js?f5b512601ba906e4b95642ddc2f9ef27e837ed54"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/meteor-fixture.js?206b1eb6d6d79bd8fab39f8548d84556180598d1"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/webapp.js?5c7d940d9baab5b893f7e5904e7258ef69e7ef8b"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/session.js?5bcd2d86431dc10d5f4be0910cb6567342e1aaf6"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/global-imports.js?3801b1676cffff4892fb1f3c5dbe5c165df312fb"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/application/template.layout.js?f025350902a793d9b61ab7166af444c16325a26a"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/chattr/template.index.js?ab7e2410823783d62bd55fd72f1fb3bc75ea1f22"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/codr/template.index.js?18cb3e341c9a01d9db750497ec6811226c9704c0"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/includes/template.cohorts_control.js?89b5fed95aefceef7e383675f31fc08d9b85d3a8"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/includes/template.header.js?9da39a9ac82c456e06a2003a6ea5e768796a1b88"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/includes/template.loading.js?6a2f20c91b63ef2820ac5b7d20954f6ad5119ee0"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/includes/template.log_in.js?f469ec6158f8a442af26d6b4b40f50f3cc25a11b"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/includes/template.log_out.js?0cb49d72b0d18f29563a8fa1ffec545a408be6a4"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/modelr/template.index.js?101290184f52581e63f99adda4a3238719898495"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/profilr/template.index.js?c07526513af2131e93a0ca77ac99e59be6fcf762"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/quizilla/template.index.js?3648210ec915f18cb71eb3aceaf3ed6c2b8c3eb6"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/stylr/template.index.js?f12fa98297767fcd7cafd2aeb1a233a70e26cdeb"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/template.dashboard.js?f5e3be2af6e1a18678779059f4e5ae79f6f4ed55"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/lib/config.coffee.js?a1800af19fc7e91176b383892c76b79ab7271e91"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/lib/router.coffee.js?1dd5b0463869282a4aad8fc07b03157a81a9e74f"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/includes/cohorts_control.coffee.js?b778d1e50b703103276bf82524c9a31a3d2467d1"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/includes/errors.coffee.js?a1800af19fc7e91176b383892c76b79ab7271e91"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/includes/header.coffee.js?60433befb101b45589856f5e7df3d02ab99eb9d8"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/includes/log_in.coffee.js?2f4cf96dbff0b4d39f600ebac3fa4bb4ccd4fa47"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/includes/log_out.coffee.js?9c389818a6c39980a2daf3ebfeaaa3ccc9396540"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/scripts/010.affix.js?f6227d22033355123fec454099a78903e054a6ee"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/scripts/020.alert.js?9dbb4eb98e100bb877091af58f1d7c74f6060967"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/scripts/030.button.js?55848f593245065bb7c2d4a9609027510780cab0"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/scripts/040.carousel.js?7b78c1efc9d1698140f3b259ef8ba010fbe62e64"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/scripts/050.collapse.js?02b2f63c0006781579affd66618c815ec09b4cbc"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/scripts/060.dropdown.js?5fdf8d1f5fc6137bb401c6eada5cf89601b70f2d"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/scripts/070.modal.js?52840ea6c3ef51870f0ecfe42dd0499e7329aa23"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/scripts/080.tooltip.js?5d1b756809e0ecf7629ebca2a9c020632575f3b6"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/scripts/090.popover.js?e6ce38245a010999a486b98eee4095f0c3010ac6"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/scripts/100.scrollspy.js?aaa1be97979f720bf325af8311af40ed9de6475e"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/scripts/110.tab.js?669d226ee79f84cb75a3c35a3ca74b9d649eae30"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/scripts/120.transition.js?fe90d485780cb6c87812765c04cfd15d595a4cb8"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/collections/cohorts.coffee.js?500a6647277b833dcc494b7c5e9571ae50f7dab5"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/collections/errors.coffee.js?a1800af19fc7e91176b383892c76b79ab7271e91"></script>
+
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>daVinci</title>
+  
+  <link rel="stylesheet" href="//cdn.oesmith.co.uk/morris-0.4.3.min.css">
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+  <script src="//cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
+</head>
+<body>
+
+</body>
+</html>

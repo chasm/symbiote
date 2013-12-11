@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"file":"/client/views/includes/log_out.coffee.js","sources":["log_out.coffee"],"names":[],"mappings":";AAAA,CAAS,KAAM,EAAP;CACN,EAAiB,YAAjB;CACS,EAAO,GAAR,GAAS,EAAf;CACE,GAAa,EAAb;CAAM,EAAN;OADY;CAAd,IAAc;CADhB,EAAiB;CADnB;A","sourcesContent":["Template.logOut.events\n  'click #logout': ->\n    Meteor.logout (err) ->\n      alert err if err\n"]}

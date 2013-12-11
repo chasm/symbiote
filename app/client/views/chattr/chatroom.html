@@ -1,0 +1,36 @@
+<template name="chatroom">
+  <header>
+    <h1>{{title}}</h1>
+  </header>
+  <div class="row">
+    <ul class="chat">
+      {{#each messages}}
+        {{> message}}
+      {{/each}}
+    </ul>
+  </div>
+  <div class="row">
+    <form id="{{slug}}-submit" class="{{slug}}-form">
+      <div class="control-group">
+        <div class="controls">
+          <textarea id="{{slug}}-body" name="body"></textarea>
+        </div>
+      </div>
+    </form>
+  </div>
+</template>
+
+<template name="message">
+  <li class="draggable" data-id={{_id}}>
+    <div>
+      <strong>{{author}} says:</strong>
+      {{#if ownChitchat}}
+        <span class="pull-right">
+          <a class="edit" href="#" data-id={{_id}}>edit</a>
+          <a class="delete" href="#" data-id={{_id}}>delete</a>
+        </span>
+      {{/if}}
+    </div>
+    <p>&ldquo;{{body}}&rdquo;</p>
+  </li>
+</template>

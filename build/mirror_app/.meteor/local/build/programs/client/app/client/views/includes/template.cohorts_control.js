@@ -1,0 +1,3 @@
+(function(){Template.__define__("cohortsControl",Package.handlebars.Handlebars.json_ast_to_func([["#",[[0,"if"],[0,"cohorts"]],["\n    <li class=\"dropdown cohorts-dropdown\">\n      <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n        <i class=\"fa fa-home\"></i> ",["{",[[0,"currentCohort"]]]," <b class=\"caret\"></b>\n      </a>\n      <ul class=\"dropdown-menu\">\n        ",["#",[[0,"each"],[0,"cohorts"]],["\n          <li><a href=\"#\">",["{",[[0]]],"</a></li>\n        "]],"\n      </ul>\n    </li>\n  "],["\n    <li><i class=\"fa fa-home\"></i> ",["{",[[0,"currentCohort"]]],"</li>\n  "]]]));
+
+})();

@@ -1,0 +1,1 @@
+{"version":3,"file":"/server/publications.coffee.js","sources":["publications.coffee"],"names":[],"mappings":";AAAA,CAAO,CAAmB,IAApB,CAAN;CAAqC,GAAR,GAAO,EAAP;CAAH;A","sourcesContent":["Meteor.publish 'cohorts', -> Cohorts.find()\n"]}
