@@ -18,6 +18,9 @@ Router.map ->
     path: '/modelr/:_id'  
     waitOn: ->
     	Meteor.subscribe 'wireframes', @.params._id
+    	Meteor.subscribe 'users'
+    data: -> 
+    	Session.set('currentModelId', @.params._id)
 
   @.route 'stylrIndex', path: '/stylr'
   @.route 'profilrIndex', path: '/profilr'

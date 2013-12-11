@@ -1,7 +1,42 @@
 <template name="modelrPage">
 	{{#with model}}
 		<div class="modellr">
-		  <h1>{{ projectTitle }}</h1>
+			<div class="row">
+				<div class="col-sm-3">
+		    	<h1>{{ projectTitle }}</h1>
+		  	</div>
+		  	<div class="col-sm-2 col-sm-offset-4">
+		  		<ul>
+		  			<li>Members: </li>
+		  				<ul>
+		  					{{#each members}}
+		  						<li>{{this}}</li>
+		  					{{/each}}
+		  				</ul>
+		  			<li>Pending Members: </li>
+		  			  <ul>
+		  			  	{{#each pendingMembers}}
+		  						<li>{{this}}</li>
+		  					{{/each}}
+		  				</ul>
+		  		</ul>
+		  	</div>
+		  	<div class="col-sm-3">
+		  		<div id="memberForm">
+		  			{{> memberForm}}
+		  		</div>
+		  	</div>
+		  </div>
 		</div>
 	{{/with}}
+</template>
+
+<template name="memberForm">
+	<form class="main">
+    <div class="control-group">
+      <div class="controls">
+        <input type="text" id="addMember" data-provide="typeahead" name="member" placeholder="Add Member"/>
+      </div>
+    </div>
+  </form>
 </template>
