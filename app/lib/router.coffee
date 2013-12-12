@@ -12,3 +12,4 @@ Router.map ->
   @.route 'stylrIndex', path: '/stylr'
   @.route 'profilrIndex', path: '/profilr'
 
+  @.route 'cohortsNew', path: '/cohorts/new'
