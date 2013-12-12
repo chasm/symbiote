@@ -1,16 +1,23 @@
-Template.chitchat.helpers
+Template.message.helpers
   submittedAt: -> new Date( @.submittedAt ).toString()
   ownChitchat: -> @.userId == Meteor.userId()
 
-Template.chitchat.events
+Template.message.events
 
   'click .edit': (e) ->
     e.preventDefault()
     id = $(e.target).data('id')
-    console.log id
+    
 
-    message = Chitchats.findOne id
-    form = $('#chitchat-submit')
+    chitchat = Chitchats.findOne(id) 
+    discussion= Discussions.findOne(id)
+    if chitchat
+      message=chitchat
+      form = $('#chitchat-submit')
+    if discussion 
+      message=discussion
+      form = $('#discussion-submit')
+
     textarea = form.find('textarea[name=body]')
     textarea.val(message.body)
     form.data('id', message._id)
@@ -18,16 +25,19 @@ Template.chitchat.events
   'click .delete': (e) ->
     e.preventDefault()
     id = $(e.target).data('id')
-    Chitchats.remove id if confirm("Delete this chat?")
+    if confirm("Delete this chat?")
+      Chitchats.remove id 
+      Discussions.remove id
 
-Template.chitchat.rendered = (e) ->
-  $('.chitchat').draggable
+
+Template.message.rendered = (e) ->
+  $('.draggable').draggable
     helper: 'clone',
     revert: 'invalid',
     appendTo: 'body'
     drag: (e,ui) -> 
       id=$(e.target).data('id')
-      chat=Chitchats.findOne(id)
+      chat=Chitchats.findOne(id) || Discussions.findOne(id)
       chat.userId == Meteor.userId()
       
 

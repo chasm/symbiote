@@ -2,14 +2,17 @@ Template.chattrIndex.helpers
   resourceRoom: ->
     title: 'Resources'
     slug: 'resources'
+    unit: 'resource'
     messages: []
   discussionRoom: ->
     title: 'Discussion'
-    slug: 'discussion'
+    slug: 'discussions'
+    unit: 'discussion'
     messages: Discussions.find()
   chitchatRoom: ->
     title: 'Chit-chat'
-    slug: 'chitchat'
+    slug: 'chitchats'
+    unit: 'chitchat'
     messages: Chitchats.find()
 
 Template.chattrIndex.rendered = (e) ->

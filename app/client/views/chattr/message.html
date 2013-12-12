@@ -1,11 +1,11 @@
-<template name="chitchat">
-  <li class="chitchat" data-id={{_id}}>
+<template name="message">
+  <li class="draggable" data-id={{_id}}>
     <div>
       <strong>{{author}} says:</strong>
       {{#if ownChitchat}}
         <span class="pull-right">
-  	      <a class="edit" href="#" data-id={{_id}}>edit</a>
-  	      <a class="delete" href="#" data-id={{_id}}>delete</a>
+          <a class="edit" href="#" data-id={{_id}}>edit</a>
+          <a class="delete" href="#" data-id={{_id}}>delete</a>
         </span>
       {{/if}}
     </div>
