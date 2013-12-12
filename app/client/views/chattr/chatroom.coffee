@@ -4,75 +4,45 @@ Template.chatroom.events
     $('.chatbox').droppable()
     console.log("dropped in chitchat")
 
-  'keyup textarea#chitchat-body': (e, template) ->
+  'keyup textarea.chat-body': (e, template) ->
 
     e.preventDefault()
-    if e.which == 13 
-      
-      form = $('#chitchat-submit')
+    if e.which == 13
+      box = e.target.id.split('-')[0]
+      form = $('#' + box + '-submit')
       id = form.data('id')
       body = form.find('[name=body]')
-      chatbox = $('#chitchats')
+      chatbox = $('#' + box + 's')
       chatUl = chatbox.find('.chat')
 
       if !id
-        chitchat = body: body.val()
-        Meteor.call 'chitchat', chitchat, (error, chitchatId) ->
+        chatbody= body: body.val()
+        Meteor.call box, chatbody, (error) ->
           if error
             alert error.reason
-          else 
+          else
             form[0].reset()
             form.removeData('id')
       else
         console.log('exisintg chat')
         console.log(id)
-        chitchat = 
+        message =
           body: body.val()
           submittedAt: new Date().getTime()
-        
-        Chitchats.update id, $set: chitchat, (error) ->
+
+        callback = (error) ->
           if error
             alert error.reason
           else
             form[0].reset()
             form.removeData('id')
             Router.go 'chattrIndex'
-      
-      chatbox.animate
-        scrollTop: chatUl.innerHeight(), 300
 
-  'keyup textarea#discussion-body': (e, template) ->
+        switch box
+          when "chitchat" then Chitchats.update id, $set: message, callback
+          when "discussion" then Discussions.update id, $set: message, callback
+          when "resource" then Resources.update id, $set: message, callback
 
-    e.preventDefault()
-    if e.which == 13 
-      
-      form = $('#discussion-submit')
-      id = form.data('id')
-      body = form.find('[name=body]')
-      chatbox = $('#discussions')
-      chatUl = chatbox.find('.chat')
-
-      if !id
-        discussion = body: body.val()
-        Meteor.call 'discussion', discussion, (error, discussionId) ->
-          if error
-            alert error.reason
-          else 
-            form[0].reset()
-            form.removeData('id')
-      else
-        discussion = 
-          body: body.val()
-          submittedAt: new Date().getTime()
-        
-        Discussions.update id, $set: discussion, (error) ->
-          if error
-            alert error.reason
-          else
-            form[0].reset()
-            form.removeData('id')
-            Router.go 'chattrIndex'
-      
       chatbox.animate
         scrollTop: chatUl.innerHeight(), 300
 
