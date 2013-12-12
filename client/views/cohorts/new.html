@@ -1,0 +1,89 @@
+<template name="cohortsNew">
+  <div id="rootwizard">
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <ul>
+            <li><a href="#tab1" data-toggle="tab">Cohorts</a></li>
+            <li><a href="#tab2" data-toggle="tab">Instructors</a></li>
+            <li><a href="#tab3" data-toggle="tab">Students</a></li>
+            <li><a href="#tab4" data-toggle="tab">Finish</a></li>
+          </ul>
+     </div>
+    </div>
+  </div>
+
+  <div id="bar" class="progress progress-striped active">
+    <div class="bar"></div>
+  </div>
+
+  <div class="tab-content">
+      <div class="tab-pane" id="tab1">
+        <legend>New Cohort</legend>
+        <label class="control-label" for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="WDI Hong Kong" class="form-control input-md">
+            <label class="control-label" for="program">Program</label>
+            <select id="program" name="program" class="form-control">
+              <option value="">Web Development Immersive</option>
+              <option value="">Front-End Web Development</option>
+              <option value="">Back-End Web Development</option>
+              <option value="">iOS Development</option>
+            </select>
+          </div>
+        </div>
+
+    <div class="tab-pane" id="tab2">
+      <div class="control-group" id="fields">
+        <button type="button" class="btn btn-default btn-lg">
+          <span class="glyphicon glyphicon-plus"></span>  Add Instructors
+        </button>
+        <br>
+      </div>
+      <form class="input-append">
+        <div id="field" class="input-group">
+          <input class="form-control" type="text" placeholder="Name"/>
+          <span class="input-group-addon">@</span>
+        </div>
+        <div id="field" class="input-group">
+          <input class="form-control" type="text" placeholder="Email"/>
+          <span class="input-group-addon">@</span>
+        </div>
+        <div id="field" class="input-group">
+          <input class="form-control" type="text" placeholder="Github username"/>
+          <span class="input-group-addon">@</span>
+        </div>
+      </form>
+      </div>
+
+
+    <div class="tab-pane" id="tab3">
+      <button type="button" class="btn btn-default btn-lg">
+                  <span class="glyphicon glyphicon-plus"></span>  Add Students
+                </button>
+                <br>
+              </div>
+              <form class="input-append">
+                  <div id="field" class="input-group">
+                    <input class="form-control" type="text" placeholder="Name"/>
+                    <span class="input-group-addon">@</span>
+                  </div>
+                  <div id="field" class="input-group">
+                    <input class="form-control" type="text" placeholder="Email"/>
+                    <span class="input-group-addon">@</span>
+                  </div>
+                  <div id="field" class="input-group">
+                    <input class="form-control" type="text" placeholder="Github username"/>
+                    <span class="input-group-addon">@</span>
+                  </div>
+                  </form>
+      </div>
+
+      <ul class="pager wizard">
+        <li class="previous first" style="display:none;"><a href="#">First</a></li>
+        <li class="previous"><a href="#">Previous</a></li>
+        <li class="next last" style="display:none;"><a href="#">Last</a></li>
+          <li class="next"><a href="#">Next</a></li>
+      </ul>
+    </div>
+  </div>
+</template>

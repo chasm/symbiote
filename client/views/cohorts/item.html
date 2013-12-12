@@ -1,0 +1,40 @@
+<template name="cohortsItem">
+  <div id="page-content-wrapper">
+      <div class="content-header">
+        <h1>
+          <a id="menu-toggle" href="#" class="btn btn-default">
+          <i class="icon-reorder"></i></a>
+          Cohort Members
+        </h1>
+      </div>
+      <!-- Keep all page content within the page-content inset div! -->
+      <div class="page-content inset">
+        <div class="row">
+          <div class="col-md-4">
+            <h1 class="lead">Instructors</h1>
+            <p class="well">
+              {{#each instructorIds}}
+                {{login}}
+              {{/each}}
+            </p>
+          </div>
+          <div class="col-md-4">
+          <h1 class="lead">Students</h1>
+            <p class="well">
+            {{#each studentIds}}
+              {{login}}
+            {{/each}}
+            </p>
+          </div>
+          <div class="col-md-4">
+          <h1 class="lead">Guests</h1>
+            <p class="well">
+            {{#each guestIds}}
+              {{login}}
+            {{/each}}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</template>
