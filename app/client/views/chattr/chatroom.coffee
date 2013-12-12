@@ -46,7 +46,4 @@ Template.chatroom.events
       chatbox.animate
         scrollTop: chatUl.innerHeight(), 300
 
-Template.chatroom.rendered = (e) ->
-  $('.chatbox').droppable
-    drop: (e) ->
-      console.log("Dropped! chitchatbox", $(e.target))
+
