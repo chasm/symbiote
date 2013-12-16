@@ -20,7 +20,7 @@ Router.map ->
     	Meteor.subscribe 'wireframes', @.params._id
     	Meteor.subscribe 'users'
     data: -> 
-    	Session.set('currentModelId', @.params._id)
+      Session.set('currentModelId', @.params._id)
 
   @.route 'stylrIndex', path: '/stylr'
   @.route 'profilrIndex', path: '/profilr'

@@ -9,6 +9,9 @@ Meteor.methods
 
   addPendingMember: (member, wireframe) ->
   	user = Meteor.users.findOne(member)
+
   	Wireframes.update wireframe, $push: 
       pendingMemberIds:
         user._id
+
+    createWireframeNotification wireframe
