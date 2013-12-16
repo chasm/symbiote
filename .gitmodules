@@ -1,6 +1,0 @@
-[submodule "test/rtd"]
-	path = test/rtd
-	url = git@github.com:xolvio/rtd.git
-[submodule "test/test/rtd"]
-	path = test/test/rtd
-	url = git@github.com:xolvio/rtd.git
