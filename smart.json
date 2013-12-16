@@ -1,0 +1,10 @@
+{
+  "packages": {
+    "iron-router": {},
+    "spin": {},
+    "roles": {},
+    "jquery-ui": {},
+    "HTML5-History-API": {},
+    "router": {}
+  }
+}

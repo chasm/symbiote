@@ -1,0 +1,16 @@
+<template name="cohortsControl">
+  {{#if cohorts}}
+    <li class="dropdown cohorts-dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <i class="fa fa-home"></i> {{currentCohort}} <b class="caret"></b>
+      </a>
+      <ul class="dropdown-menu">
+        {{#each cohorts}}
+          <li><a href="#">{{this}}</a></li>
+        {{/each}}
+      </ul>
+    </li>
+  {{else}}
+    <li><i class="fa fa-home"></i> {{currentCohort}}</li>
+  {{/if}}
+</template>

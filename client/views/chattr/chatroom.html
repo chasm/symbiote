@@ -1,0 +1,22 @@
+<template name="chatroom">
+  <header>
+    <h1>{{title}}</h1>
+  </header>
+  <div class="row chatbox {{slug}}" data-id="{{slug}}">
+    <ul class="chat">
+      {{#each messages}}
+        {{> message}}
+      {{/each}}
+    </ul>
+  </div>
+  <div class="row">
+    <form id="{{unit}}-submit" class="{{unit}}-form">
+      <div class="control-group">
+        <div class="controls">
+          <textarea id="{{unit}}-body" class="chat-body" name="body"></textarea>
+        </div>
+      </div>
+    </form>
+  </div>
+</template>
+
