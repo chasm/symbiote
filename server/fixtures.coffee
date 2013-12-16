@@ -73,3 +73,53 @@ if Cohorts.find().count() == 0
         name: "Eddie Lau"
       }
     ]
+
+if Chitchats.find().count() == 0
+  now = new Date().getTime()
+
+  # create a user
+  tomId = Meteor.users.insert
+    profile:
+      login: 'Tom'
+      firstName: 'Tom'
+      lastName: 'Coleman'
+  tom = Meteor.users.findOne tomId
+
+  somId = Meteor.users.insert
+    profile:
+      login: 'Sacha'
+      firstName: 'Sacha'
+      lastName: 'Colins'
+  som = Meteor.users.findOne somId
+
+
+  if tom?
+    Chitchats.insert
+      userId: tom._id
+      author: tom.profile.login
+      submittedAt: now - 5 * 3600 * 1000
+      body: 'Morning'
+
+   if som?
+    Chitchats.insert
+      userId: som._id
+      author: som.profile.login
+      submittedAt: now - 5 * 3600 * 1000
+      body: 'Whats up?'
+
+if Discussions.find().count() == 0
+  now = new Date().getTime()
+
+  if tom?
+    Discussions.insert
+      userId: tom._id
+      author: tom.profile.login
+      submittedAt: now - 5 * 3600 * 1000
+      body: 'Interesting project Sacha, can I get involved?'
+
+   if som?
+    Discussions.insert
+      userId: som._id
+      author: som.profile.login
+      submittedAt: now - 5 * 3600 * 1000
+      body: 'Sure, you can!'

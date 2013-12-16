@@ -1,4 +1,19 @@
 <template name="chattrIndex">
-  <h1>Chattr</h1>
-  <p>Hi! I'm the chattrIndex.</p>
+  <div id="chattr-display" class="row">
+    <section id="class-resources" class="chat-room col-lg-4">
+      {{#with resourceRoom}}
+        {{> chatroom}}
+      {{/with}}
+    </section>
+    <section id="class-discussion" class="chat-room col-lg-4">
+      {{#with discussionRoom}}
+        {{> chatroom}}
+      {{/with}}
+    </section>
+    <section id="class-chitchat" class="chat-room col-lg-4">
+      {{#with chitchatRoom}}
+        {{> chatroom}}
+      {{/with}}
+    </section>
+  </div>
 </template>

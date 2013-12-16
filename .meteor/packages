@@ -18,4 +18,6 @@ iron-router
 spin
 accounts-github
 roles
+jquery-ui
+HTML5-History-API
 router
