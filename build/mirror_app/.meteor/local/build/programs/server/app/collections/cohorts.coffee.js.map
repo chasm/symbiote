@@ -1,1 +1,0 @@
-{"version":3,"file":"/collections/cohorts.coffee.js","sources":["cohorts.coffee"],"names":[],"mappings":";AAAA,CAAC,EAAc,CAAd,EAAoB,CAArB,EAAe;A","sourcesContent":["@Cohorts = new Meteor.Collection 'cohorts'\n"]}
