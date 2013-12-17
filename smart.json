@@ -5,6 +5,7 @@
     "roles": {},
     "jquery-ui": {},
     "HTML5-History-API": {},
-    "router": {}
+    "router": {},
+    "Bootstrap3-Typeahead": {}
   }
 }
