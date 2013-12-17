@@ -28,6 +28,11 @@ if Cohorts.find().count() == 0
         email: "deepak.jkg@gmail.com"
         name: "Deepak J"
       }
+      {
+        username: "wubr2000"
+        email: "wubr2000@hotmail.com"
+        name: "Bruno Wu"
+      }
     ]
     instructors: [
       {
